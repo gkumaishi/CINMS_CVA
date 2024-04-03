@@ -1,0 +1,954 @@
+sppID,Species,Sensitivity_or_Exposure,Description,Scorer,Data Quality Score,bin1_low,bin2_moderate,bin3_high,bin4_veryhigh,bin_total_mustbe5,weighted_mean
+8,CA_Halibut,sensitivity,habitat_specificity,THF,3,0,3,2,0,5,2.4
+8,CA_Halibut,sensitivity,prey_specificity,THF,3,3,2,0,0,5,1.4
+8,CA_Halibut,sensitivity,adult_mobility,THF,3,3,2,0,0,5,1.4
+8,CA_Halibut,sensitivity,dispersal_of_early_life_stages,THF,1.5,1,3,1,0,5,2
+8,CA_Halibut,sensitivity,early_life_history_survival_and_settlement,THF,0.75,1,3,1,0,5,2
+8,CA_Halibut,sensitivity,complexity_in_reproductive_strategy,THF,3,1,2,1,1,5,2.4
+8,CA_Halibut,sensitivity,spawing_cycle,THF,3,4,1,0,0,5,1.2
+8,CA_Halibut,sensitivity,sensitivity_to_temperature,THF,3,0,3,2,0,5,2.4
+8,CA_Halibut,sensitivity,sensitivity_to_OA,THF,3,2,3,0,0,5,1.6
+8,CA_Halibut,sensitivity,population_growth_rate,THF,2.4,1,2,1,1,5,2.4
+8,CA_Halibut,sensitivity,stock_size_or_status,THF,1.5,1,2,1,1,5,2.4
+8,CA_Halibut,sensitivity,other_stressors,THF,1.2,0,2,2,1,5,2.8
+8,CA_Halibut,exposure_Near,mean_SST,THF,NA,1,2,1,1,5,2.4
+8,CA_Halibut,exposure_Near,mean_salinity,THF,NA,1,2,1,1,5,2.4
+8,CA_Halibut,exposure_Near,mean_pH,THF,NA,1,2,1,1,5,2.4
+8,CA_Halibut,exposure_Near,mean_air_temp,THF,NA,2,2,1,0,5,1.8
+8,CA_Halibut,exposure_Near,mean_percipitation,THF,NA,0,2,2,1,5,2.8
+8,CA_Halibut,exposure_Near,sea_level_rise,THF,NA,0,1,3,1,5,3
+8,CA_Halibut,exposure_Near,phenology_upwelling,THF,NA,3,2,0,0,5,1.4
+8,CA_Halibut,exposure_Near,subsurface_oxygen,THF,NA,2,3,0,0,5,1.6
+8,CA_Halibut,exposure_Far,mean_SST,THF,NA,0,1,2,2,5,3.2
+8,CA_Halibut,exposure_Far,mean_salinity,THF,NA,0,0,3,2,5,3.4
+8,CA_Halibut,exposure_Far,mean_pH,THF,NA,0,0,3,2,5,3.4
+8,CA_Halibut,exposure_Far,mean_air_temp,THF,NA,0,2,2,1,5,2.8
+8,CA_Halibut,exposure_Far,mean_percipitation,THF,NA,0,1,3,1,5,3
+8,CA_Halibut,exposure_Far,sea_level_rise,THF,NA,0,0,1,4,5,3.8
+8,CA_Halibut,exposure_Far,phenology_upwelling,THF,NA,2,2,1,0,5,1.8
+8,CA_Halibut,exposure_Far,subsurface_oxygen,THF,NA,0,2,3,0,5,2.6
+34,White_Seabass,sensitivity,habitat_specificity,THF,3,0,1,3,1,5,3
+34,White_Seabass,sensitivity,prey_specificity,THF,3,2,3,0,0,5,1.6
+34,White_Seabass,sensitivity,adult_mobility,THF,3,4,1,0,0,5,1.2
+34,White_Seabass,sensitivity,dispersal_of_early_life_stages,THF,3,0,3,2,0,5,2.4
+34,White_Seabass,sensitivity,early_life_history_survival_and_settlement,THF,0.75,0,3,2,0,5,2.4
+34,White_Seabass,sensitivity,complexity_in_reproductive_strategy,THF,3,0,0,4,1,5,3.2
+34,White_Seabass,sensitivity,spawing_cycle,THF,3,0,0,4,1,5,3.2
+34,White_Seabass,sensitivity,sensitivity_to_temperature,THF,3,0,1,3,1,5,3
+34,White_Seabass,sensitivity,sensitivity_to_OA,THF,3,4,1,0,0,5,1.2
+34,White_Seabass,sensitivity,population_growth_rate,THF,2.4,0,2,3,0,5,2.6
+34,White_Seabass,sensitivity,stock_size_or_status,THF,2.5,0,0,3,2,5,3.4
+34,White_Seabass,sensitivity,other_stressors,THF,0.8,1,1,2,0,4,1.8
+34,White_Seabass,exposure_Near,mean_SST,THF,NA,1,2,1,1,5,2.4
+34,White_Seabass,exposure_Near,mean_salinity,THF,NA,1,4,0,0,5,1.8
+34,White_Seabass,exposure_Near,mean_pH,THF,NA,1,2,1,1,5,2.4
+34,White_Seabass,exposure_Near,mean_air_temp,THF,NA,3,2,0,0,5,1.4
+34,White_Seabass,exposure_Near,mean_percipitation,THF,NA,1,3,1,0,5,2
+34,White_Seabass,exposure_Near,sea_level_rise,THF,NA,1,3,1,0,5,2
+34,White_Seabass,exposure_Near,phenology_upwelling,THF,NA,3,2,0,0,5,1.4
+34,White_Seabass,exposure_Near,subsurface_oxygen,THF,NA,4,1,0,0,5,1.2
+34,White_Seabass,exposure_Far,mean_SST,THF,NA,0,0,3,2,5,3.4
+34,White_Seabass,exposure_Far,mean_salinity,THF,NA,0,2,3,0,5,2.6
+34,White_Seabass,exposure_Far,mean_pH,THF,NA,0,1,3,1,5,3
+34,White_Seabass,exposure_Far,mean_air_temp,THF,NA,1,1,2,1,5,2.6
+34,White_Seabass,exposure_Far,mean_percipitation,THF,NA,0,2,3,0,5,2.6
+34,White_Seabass,exposure_Far,sea_level_rise,THF,NA,0,3,2,0,5,2.4
+34,White_Seabass,exposure_Far,phenology_upwelling,THF,NA,2,3,0,0,5,1.6
+34,White_Seabass,exposure_Far,subsurface_oxygen,THF,NA,0,3,2,0,5,2.4
+4,CA_Sheephead,sensitivity,habitat_specificity,THF,,0,0,3,2,5,3.4
+4,CA_Sheephead,sensitivity,prey_specificity,THF,,3,2,0,0,5,1.4
+4,CA_Sheephead,sensitivity,adult_mobility,THF,,0,2,3,0,5,2.6
+4,CA_Sheephead,sensitivity,dispersal_of_early_life_stages,THF,,1,4,0,0,5,1.8
+4,CA_Sheephead,sensitivity,early_life_history_survival_and_settlement,THF,,1,2,1,1,5,2.4
+4,CA_Sheephead,sensitivity,complexity_in_reproductive_strategy,THF,,2,3,0,0,5,1.6
+4,CA_Sheephead,sensitivity,spawing_cycle,THF,,0,2,3,0,5,2.6
+4,CA_Sheephead,sensitivity,sensitivity_to_temperature,THF,,0,0,3,2,5,3.4
+4,CA_Sheephead,sensitivity,sensitivity_to_OA,THF,,1,2,1,1,5,2.4
+4,CA_Sheephead,sensitivity,population_growth_rate,THF,,0,1,2,2,5,3.2
+4,CA_Sheephead,sensitivity,stock_size_or_status,THF,,0,0,3,2,5,3.4
+4,CA_Sheephead,sensitivity,other_stressors,THF,,0,2,3,0,5,2.6
+4,CA_Sheephead,exposure_Near,mean_SST,THF,NA,0,1,3,1,5,3
+4,CA_Sheephead,exposure_Near,mean_salinity,THF,NA,1,3,1,0,5,2
+4,CA_Sheephead,exposure_Near,mean_pH,THF,NA,1,2,1,1,5,2.4
+4,CA_Sheephead,exposure_Near,mean_air_temp,THF,NA,2,3,0,0,5,1.6
+4,CA_Sheephead,exposure_Near,mean_percipitation,THF,NA,3,2,0,0,5,1.4
+4,CA_Sheephead,exposure_Near,sea_level_rise,THF,NA,1,3,2,0,6,2.6
+4,CA_Sheephead,exposure_Near,phenology_upwelling,THF,NA,2,2,1,0,5,1.8
+4,CA_Sheephead,exposure_Near,subsurface_oxygen,THF,NA,3,2,0,0,5,1.4
+4,CA_Sheephead,exposure_Far,mean_SST,THF,NA,0,0,2,3,5,3.6
+4,CA_Sheephead,exposure_Far,mean_salinity,THF,NA,0,1,3,1,5,3
+4,CA_Sheephead,exposure_Far,mean_pH,THF,NA,0,1,3,1,5,3
+4,CA_Sheephead,exposure_Far,mean_air_temp,THF,NA,0,3,2,0,5,2.4
+4,CA_Sheephead,exposure_Far,mean_percipitation,THF,NA,1,2,1,1,5,2.4
+4,CA_Sheephead,exposure_Far,sea_level_rise,THF,NA,0,1,3,1,5,3
+4,CA_Sheephead,exposure_Far,phenology_upwelling,THF,NA,2,3,0,0,5,1.6
+4,CA_Sheephead,exposure_Far,subsurface_oxygen,THF,NA,0,3,2,0,5,2.4
+24,Red_Sea_Urchin,sensitivity,habitat_specificity,THF,,5,0,0,0,5,1
+24,Red_Sea_Urchin,sensitivity,prey_specificity,THF,,2,3,0,0,5,1.6
+24,Red_Sea_Urchin,sensitivity,adult_mobility,THF,,0,1,3,1,5,3
+24,Red_Sea_Urchin,sensitivity,dispersal_of_early_life_stages,THF,,4,1,0,0,5,1.2
+24,Red_Sea_Urchin,sensitivity,early_life_history_survival_and_settlement,THF,,0,1,3,1,5,3
+24,Red_Sea_Urchin,sensitivity,complexity_in_reproductive_strategy,THF,,2,3,0,0,5,1.6
+24,Red_Sea_Urchin,sensitivity,spawing_cycle,THF,,0,4,1,0,5,2.2
+24,Red_Sea_Urchin,sensitivity,sensitivity_to_temperature,THF,,0,3,2,0,5,2.4
+24,Red_Sea_Urchin,sensitivity,sensitivity_to_OA,THF,,0,0,2,3,5,3.6
+24,Red_Sea_Urchin,sensitivity,population_growth_rate,THF,,1,1,2,1,5,2.6
+24,Red_Sea_Urchin,sensitivity,stock_size_or_status,THF,,2,1,1,1,5,2.2
+24,Red_Sea_Urchin,sensitivity,other_stressors,THF,,0,1,3,1,5,3
+24,Red_Sea_Urchin,exposure_Near,mean_SST,THF,NA,2,3,0,0,5,1.6
+24,Red_Sea_Urchin,exposure_Near,mean_salinity,THF,NA,3,2,0,0,5,1.4
+24,Red_Sea_Urchin,exposure_Near,mean_pH,THF,NA,0,3,2,0,5,2.4
+24,Red_Sea_Urchin,exposure_Near,mean_air_temp,THF,NA,3,2,0,0,5,1.4
+24,Red_Sea_Urchin,exposure_Near,mean_percipitation,THF,NA,4,1,0,0,5,1.2
+24,Red_Sea_Urchin,exposure_Near,sea_level_rise,THF,NA,1,4,0,0,5,1.8
+24,Red_Sea_Urchin,exposure_Near,phenology_upwelling,THF,NA,2,3,0,0,5,1.6
+24,Red_Sea_Urchin,exposure_Near,subsurface_oxygen,THF,NA,4,1,0,0,5,1.2
+24,Red_Sea_Urchin,exposure_Far,mean_SST,THF,NA,0,3,2,0,5,2.4
+24,Red_Sea_Urchin,exposure_Far,mean_salinity,THF,NA,1,3,1,0,5,2
+24,Red_Sea_Urchin,exposure_Far,mean_pH,THF,NA,0,0,1,4,5,3.8
+24,Red_Sea_Urchin,exposure_Far,mean_air_temp,THF,NA,2,2,1,0,5,1.8
+24,Red_Sea_Urchin,exposure_Far,mean_percipitation,THF,NA,2,1,1,1,5,2.2
+24,Red_Sea_Urchin,exposure_Far,sea_level_rise,THF,NA,0,3,2,0,5,2.4
+24,Red_Sea_Urchin,exposure_Far,phenology_upwelling,THF,NA,0,3,2,0,5,2.4
+24,Red_Sea_Urchin,exposure_Far,subsurface_oxygen,THF,NA,0,2,3,0,5,2.6
+27,Rock_Crab,sensitivity,habitat_specificity,THF,,4,1,0,0,5,1.2
+27,Rock_Crab,sensitivity,prey_specificity,THF,,5,0,0,0,5,1
+27,Rock_Crab,sensitivity,adult_mobility,THF,,0,2,3,0,5,2.6
+27,Rock_Crab,sensitivity,dispersal_of_early_life_stages,THF,,1,3,1,0,5,2
+27,Rock_Crab,sensitivity,early_life_history_survival_and_settlement,THF,,0,1,3,1,5,3
+27,Rock_Crab,sensitivity,complexity_in_reproductive_strategy,THF,,3,1,1,0,5,1.6
+27,Rock_Crab,sensitivity,spawing_cycle,THF,,3,2,0,0,5,1.4
+27,Rock_Crab,sensitivity,sensitivity_to_temperature,THF,,1,3,1,0,5,2
+27,Rock_Crab,sensitivity,sensitivity_to_OA,THF,,0,0,1,4,5,3.8
+27,Rock_Crab,sensitivity,population_growth_rate,THF,,4,1,0,0,5,1.2
+27,Rock_Crab,sensitivity,stock_size_or_status,THF,,2,1,1,1,5,2.2
+27,Rock_Crab,sensitivity,other_stressors,THF,,2,2,1,0,5,1.8
+27,Rock_Crab,exposure_Near,mean_SST,THF,NA,3,2,0,0,5,1.4
+27,Rock_Crab,exposure_Near,mean_salinity,THF,NA,3,2,0,0,5,1.4
+27,Rock_Crab,exposure_Near,mean_pH,THF,NA,0,3,2,0,5,2.4
+27,Rock_Crab,exposure_Near,mean_air_temp,THF,NA,4,1,0,0,5,1.2
+27,Rock_Crab,exposure_Near,mean_percipitation,THF,NA,5,0,0,0,5,1
+27,Rock_Crab,exposure_Near,sea_level_rise,THF,NA,2,3,0,0,5,1.6
+27,Rock_Crab,exposure_Near,phenology_upwelling,THF,NA,4,1,0,0,5,1.2
+27,Rock_Crab,exposure_Near,subsurface_oxygen,THF,NA,4,1,0,0,5,1.2
+27,Rock_Crab,exposure_Far,mean_SST,THF,NA,1,3,1,0,5,2
+27,Rock_Crab,exposure_Far,mean_salinity,THF,NA,1,3,0,1,5,2.2
+27,Rock_Crab,exposure_Far,mean_pH,THF,NA,0,0,1,4,5,3.8
+27,Rock_Crab,exposure_Far,mean_air_temp,THF,NA,1,3,1,0,5,2
+27,Rock_Crab,exposure_Far,mean_percipitation,THF,NA,3,1,1,0,5,1.6
+27,Rock_Crab,exposure_Far,sea_level_rise,THF,NA,0,4,1,0,5,2.2
+27,Rock_Crab,exposure_Far,phenology_upwelling,THF,NA,2,3,0,0,5,1.6
+27,Rock_Crab,exposure_Far,subsurface_oxygen,THF,NA,0,2,3,0,5,2.6
+32,Warty_Sea_Cucumber,sensitivity,habitat_specificity,THF,,2,2,1,0,5,1.8
+32,Warty_Sea_Cucumber,sensitivity,prey_specificity,THF,,3,1,1,0,5,1.6
+32,Warty_Sea_Cucumber,sensitivity,adult_mobility,THF,,0,1,3,1,5,3
+32,Warty_Sea_Cucumber,sensitivity,dispersal_of_early_life_stages,THF,,1,2,1,1,5,2.4
+32,Warty_Sea_Cucumber,sensitivity,early_life_history_survival_and_settlement,THF,,1,1,2,1,5,2.6
+32,Warty_Sea_Cucumber,sensitivity,complexity_in_reproductive_strategy,THF,,0,2,3,0,5,2.6
+32,Warty_Sea_Cucumber,sensitivity,spawing_cycle,THF,,0,1,3,1,5,3
+32,Warty_Sea_Cucumber,sensitivity,sensitivity_to_temperature,THF,,0,0,3,2,5,3.4
+32,Warty_Sea_Cucumber,sensitivity,sensitivity_to_OA,THF,,4,1,0,0,5,1.2
+32,Warty_Sea_Cucumber,sensitivity,population_growth_rate,THF,,1,1,2,1,5,2.6
+32,Warty_Sea_Cucumber,sensitivity,stock_size_or_status,THF,,0,0,1,4,5,3.8
+32,Warty_Sea_Cucumber,sensitivity,other_stressors,THF,,1,2,2,0,5,2.2
+32,Warty_Sea_Cucumber,exposure_Near,mean_SST,THF,NA,2,2,1,0,5,1.8
+32,Warty_Sea_Cucumber,exposure_Near,mean_salinity,THF,NA,4,1,0,0,5,1.2
+32,Warty_Sea_Cucumber,exposure_Near,mean_pH,THF,NA,1,3,1,0,5,2
+32,Warty_Sea_Cucumber,exposure_Near,mean_air_temp,THF,NA,3,1,1,0,5,1.6
+32,Warty_Sea_Cucumber,exposure_Near,mean_percipitation,THF,NA,5,0,0,0,5,1
+32,Warty_Sea_Cucumber,exposure_Near,sea_level_rise,THF,NA,2,3,0,0,5,1.6
+32,Warty_Sea_Cucumber,exposure_Near,phenology_upwelling,THF,NA,3,1,1,0,5,1.6
+32,Warty_Sea_Cucumber,exposure_Near,subsurface_oxygen,THF,NA,3,2,0,0,5,1.4
+32,Warty_Sea_Cucumber,exposure_Far,mean_SST,THF,NA,0,1,2,2,5,3.2
+32,Warty_Sea_Cucumber,exposure_Far,mean_salinity,THF,NA,1,3,1,0,5,2
+32,Warty_Sea_Cucumber,exposure_Far,mean_pH,THF,NA,0,0,0,5,5,4
+32,Warty_Sea_Cucumber,exposure_Far,mean_air_temp,THF,NA,0,3,1,1,5,2.6
+32,Warty_Sea_Cucumber,exposure_Far,mean_percipitation,THF,NA,3,1,1,0,5,1.6
+32,Warty_Sea_Cucumber,exposure_Far,sea_level_rise,THF,NA,0,4,1,0,5,2.2
+32,Warty_Sea_Cucumber,exposure_Far,phenology_upwelling,THF,NA,1,3,1,0,5,2
+32,Warty_Sea_Cucumber,exposure_Far,subsurface_oxygen,THF,NA,0,1,3,1,5,3
+18,Pacific_Bonito,sensitivity,habitat_specificity,THF,Tim to Calculate,3,1,1,0,5,1.6
+18,Pacific_Bonito,sensitivity,prey_specificity,THF,Tim to Calculate,1,3,1,0,5,2
+18,Pacific_Bonito,sensitivity,adult_mobility,THF,Tim to Calculate,5,0,0,0,5,1
+18,Pacific_Bonito,sensitivity,dispersal_of_early_life_stages,THF,Tim to Calculate,2,2,1,0,5,1.8
+18,Pacific_Bonito,sensitivity,early_life_history_survival_and_settlement,THF,Tim to Calculate,2,2,1,0,5,1.8
+18,Pacific_Bonito,sensitivity,complexity_in_reproductive_strategy,THF,Tim to Calculate,3,2,0,0,5,1.4
+18,Pacific_Bonito,sensitivity,spawing_cycle,THF,Tim to Calculate,0,3,2,0,5,2.4
+18,Pacific_Bonito,sensitivity,sensitivity_to_temperature,THF,Tim to Calculate,4,1,0,0,5,1.2
+18,Pacific_Bonito,sensitivity,sensitivity_to_OA,THF,Tim to Calculate,5,0,0,0,5,1
+18,Pacific_Bonito,sensitivity,population_growth_rate,THF,Tim to Calculate,5,0,0,0,5,1
+18,Pacific_Bonito,sensitivity,stock_size_or_status,THF,Tim to Calculate,4,1,0,0,5,1.2
+18,Pacific_Bonito,sensitivity,other_stressors,THF,Tim to Calculate,3,2,0,0,5,1.4
+18,Pacific_Bonito,exposure_Near,mean_SST,THF,Tim to Calculate,3,2,0,0,5,1.4
+18,Pacific_Bonito,exposure_Near,mean_salinity,THF,Tim to Calculate,1,2,2,0,5,2.2
+18,Pacific_Bonito,exposure_Near,mean_pH,THF,Tim to Calculate,1,2,1,1,5,2.4
+18,Pacific_Bonito,exposure_Near,mean_air_temp,THF,Tim to Calculate,4,1,0,0,5,1.2
+18,Pacific_Bonito,exposure_Near,mean_percipitation,THF,Tim to Calculate,5,0,0,0,5,1
+18,Pacific_Bonito,exposure_Near,sea_level_rise,THF,Tim to Calculate,3,2,0,0,5,1.4
+18,Pacific_Bonito,exposure_Near,phenology_upwelling,THF,Tim to Calculate,1,3,1,0,5,2
+18,Pacific_Bonito,exposure_Near,subsurface_oxygen,THF,Tim to Calculate,0,2,3,0,5,2.6
+18,Pacific_Bonito,exposure_Far,mean_SST,THF,Tim to Calculate,0,3,2,0,5,2.4
+18,Pacific_Bonito,exposure_Far,mean_salinity,THF,Tim to Calculate,0,2,3,1,6,3.4
+18,Pacific_Bonito,exposure_Far,mean_pH,THF,Tim to Calculate,0,0,3,2,5,3.4
+18,Pacific_Bonito,exposure_Far,mean_air_temp,THF,Tim to Calculate,0,3,2,0,5,2.4
+18,Pacific_Bonito,exposure_Far,mean_percipitation,THF,Tim to Calculate,1,3,1,0,5,2
+18,Pacific_Bonito,exposure_Far,sea_level_rise,THF,Tim to Calculate,1,3,1,0,5,2
+18,Pacific_Bonito,exposure_Far,phenology_upwelling,THF,Tim to Calculate,0,3,2,0,5,2.4
+18,Pacific_Bonito,exposure_Far,subsurface_oxygen,THF,Tim to Calculate,0,0,2,3,5,3.6
+23,Red_Abalone,sensitivity,habitat_specificity,THF,Tim to Calculate,0,0,2,3,5,3.6
+23,Red_Abalone,sensitivity,prey_specificity,THF,Tim to Calculate,1,3,1,0,5,2
+23,Red_Abalone,sensitivity,adult_mobility,THF,Tim to Calculate,,1,3,1,5,3
+23,Red_Abalone,sensitivity,dispersal_of_early_life_stages,THF,Tim to Calculate,0,1,3,1,5,3
+23,Red_Abalone,sensitivity,early_life_history_survival_and_settlement,THF,Tim to Calculate,0,0,1,4,5,3.8
+23,Red_Abalone,sensitivity,complexity_in_reproductive_strategy,THF,Tim to Calculate,0,3,2,,5,2.4
+23,Red_Abalone,sensitivity,spawing_cycle,THF,Tim to Calculate,4,1,0,0,5,1.2
+23,Red_Abalone,sensitivity,sensitivity_to_temperature,THF,Tim to Calculate,0,0,2,3,5,3.6
+23,Red_Abalone,sensitivity,sensitivity_to_OA,THF,Tim to Calculate,0,0,0,5,5,4
+23,Red_Abalone,sensitivity,population_growth_rate,THF,Tim to Calculate,0,0,0,5,5,4
+23,Red_Abalone,sensitivity,stock_size_or_status,THF,Tim to Calculate,0,0,1,4,5,3.8
+23,Red_Abalone,sensitivity,other_stressors,THF,Tim to Calculate,0,0,1,4,5,3.8
+23,Red_Abalone,exposure_Near,mean_SST,THF,Tim to Calculate,0,0,3,2,5,3.4
+23,Red_Abalone,exposure_Near,mean_salinity,THF,Tim to Calculate,1,3,1,0,5,2
+23,Red_Abalone,exposure_Near,mean_pH,THF,Tim to Calculate,0,1,3,1,5,3
+23,Red_Abalone,exposure_Near,mean_air_temp,THF,Tim to Calculate,0,0,3,2,5,3.4
+23,Red_Abalone,exposure_Near,mean_percipitation,THF,Tim to Calculate,0,2,3,0,5,2.6
+23,Red_Abalone,exposure_Near,sea_level_rise,THF,Tim to Calculate,1,3,1,0,5,2
+23,Red_Abalone,exposure_Near,phenology_upwelling,THF,Tim to Calculate,3,2,0,0,5,1.4
+23,Red_Abalone,exposure_Near,subsurface_oxygen,THF,Tim to Calculate,4,1,0,0,5,1.2
+23,Red_Abalone,exposure_Far,mean_SST,THF,Tim to Calculate,0,0,1,4,5,3.8
+23,Red_Abalone,exposure_Far,mean_salinity,THF,Tim to Calculate,0,1,3,1,5,3
+23,Red_Abalone,exposure_Far,mean_pH,THF,Tim to Calculate,0,0,1,4,5,3.8
+23,Red_Abalone,exposure_Far,mean_air_temp,THF,Tim to Calculate,0,0,0,5,5,4
+23,Red_Abalone,exposure_Far,mean_percipitation,THF,Tim to Calculate,0,0,2,3,5,3.6
+23,Red_Abalone,exposure_Far,sea_level_rise,THF,Tim to Calculate,0,2,3,0,5,2.6
+23,Red_Abalone,exposure_Far,phenology_upwelling,THF,Tim to Calculate,2,3,0,0,5,1.6
+23,Red_Abalone,exposure_Far,subsurface_oxygen,THF,Tim to Calculate,0,2,3,0,5,2.6
+20,Pacific_Hagfish,sensitivity,habitat_specificity,THF,Tim to Calculate,5,0,0,0,5,1
+20,Pacific_Hagfish,sensitivity,prey_specificity,THF,Tim to Calculate,4,1,0,0,5,1.2
+20,Pacific_Hagfish,sensitivity,adult_mobility,THF,Tim to Calculate,3,1,1,0,5,1.6
+20,Pacific_Hagfish,sensitivity,dispersal_of_early_life_stages,THF,Tim to Calculate,0,0,1,4,5,3.8
+20,Pacific_Hagfish,sensitivity,early_life_history_survival_and_settlement,THF,Tim to Calculate,4,1,0,0,5,1.2
+20,Pacific_Hagfish,sensitivity,complexity_in_reproductive_strategy,THF,Tim to Calculate,3,1,1,0,5,1.6
+20,Pacific_Hagfish,sensitivity,spawing_cycle,THF,Tim to Calculate,5,0,0,0,5,1
+20,Pacific_Hagfish,sensitivity,sensitivity_to_temperature,THF,Tim to Calculate,1,4,0,0,5,1.8
+20,Pacific_Hagfish,sensitivity,sensitivity_to_OA,THF,Tim to Calculate,1,3,1,0,5,2
+20,Pacific_Hagfish,sensitivity,population_growth_rate,THF,Tim to Calculate,0,2,3,0,5,2.6
+20,Pacific_Hagfish,sensitivity,stock_size_or_status,THF,Tim to Calculate,1,2,1,1,5,2.4
+20,Pacific_Hagfish,sensitivity,other_stressors,THF,Tim to Calculate,2,2,1,0,5,1.8
+20,Pacific_Hagfish,exposure_Near,mean_SST,THF,Tim to Calculate,4,1,0,0,5,1.2
+20,Pacific_Hagfish,exposure_Near,mean_salinity,THF,Tim to Calculate,3,2,0,0,5,1.4
+20,Pacific_Hagfish,exposure_Near,mean_pH,THF,Tim to Calculate,1,3,1,0,5,2
+20,Pacific_Hagfish,exposure_Near,mean_air_temp,THF,Tim to Calculate,4,1,0,0,5,1.2
+20,Pacific_Hagfish,exposure_Near,mean_percipitation,THF,Tim to Calculate,5,0,0,0,5,1
+20,Pacific_Hagfish,exposure_Near,sea_level_rise,THF,Tim to Calculate,3,2,0,0,5,1.4
+20,Pacific_Hagfish,exposure_Near,phenology_upwelling,THF,Tim to Calculate,3,2,0,0,5,1.4
+20,Pacific_Hagfish,exposure_Near,subsurface_oxygen,THF,Tim to Calculate,0,3,2,0,5,2.4
+20,Pacific_Hagfish,exposure_Far,mean_SST,THF,Tim to Calculate,2,3,0,0,5,1.6
+20,Pacific_Hagfish,exposure_Far,mean_salinity,THF,Tim to Calculate,1,3,0,0,4,1.4
+20,Pacific_Hagfish,exposure_Far,mean_pH,THF,Tim to Calculate,0,1,2,2,5,3.2
+20,Pacific_Hagfish,exposure_Far,mean_air_temp,THF,Tim to Calculate,2,3,0,0,5,1.6
+20,Pacific_Hagfish,exposure_Far,mean_percipitation,THF,Tim to Calculate,3,1,1,0,5,1.6
+20,Pacific_Hagfish,exposure_Far,sea_level_rise,THF,Tim to Calculate,1,3,1,0,5,2
+20,Pacific_Hagfish,exposure_Far,phenology_upwelling,THF,Tim to Calculate,2,3,0,0,5,1.6
+20,Pacific_Hagfish,exposure_Far,subsurface_oxygen,THF,Tim to Calculate,0,0,3,2,5,3.4
+30,Spot_Prawn,sensitivity,habitat_specificity,THF,Tim to Calculate,0,1,3,1,5,3
+30,Spot_Prawn,sensitivity,prey_specificity,THF,Tim to Calculate,5,0,0,0,5,1
+30,Spot_Prawn,sensitivity,adult_mobility,THF,Tim to Calculate,0,2,3,0,5,2.6
+30,Spot_Prawn,sensitivity,dispersal_of_early_life_stages,THF,Tim to Calculate,1,2,1,1,5,2.4
+30,Spot_Prawn,sensitivity,early_life_history_survival_and_settlement,THF,Tim to Calculate,0,1,3,1,5,3
+30,Spot_Prawn,sensitivity,complexity_in_reproductive_strategy,THF,Tim to Calculate,0,0,4,1,5,3.2
+30,Spot_Prawn,sensitivity,spawing_cycle,THF,Tim to Calculate,0,0,1,4,5,3.8
+30,Spot_Prawn,sensitivity,sensitivity_to_temperature,THF,Tim to Calculate,0,2,3,0,5,2.6
+30,Spot_Prawn,sensitivity,sensitivity_to_OA,THF,Tim to Calculate,0,0,2,3,5,3.6
+30,Spot_Prawn,sensitivity,population_growth_rate,THF,Tim to Calculate,3,1,1,0,5,1.6
+30,Spot_Prawn,sensitivity,stock_size_or_status,THF,Tim to Calculate,2,1,1,1,5,2.2
+30,Spot_Prawn,sensitivity,other_stressors,THF,Tim to Calculate,1,3,1,0,5,2
+30,Spot_Prawn,exposure_Near,mean_SST,THF,Tim to Calculate,2,2,1,0,5,1.8
+30,Spot_Prawn,exposure_Near,mean_salinity,THF,Tim to Calculate,3,2,0,0,5,1.4
+30,Spot_Prawn,exposure_Near,mean_pH,THF,Tim to Calculate,0,3,2,0,5,2.4
+30,Spot_Prawn,exposure_Near,mean_air_temp,THF,Tim to Calculate,3,2,0,0,5,1.4
+30,Spot_Prawn,exposure_Near,mean_percipitation,THF,Tim to Calculate,4,1,0,0,5,1.2
+30,Spot_Prawn,exposure_Near,sea_level_rise,THF,Tim to Calculate,3,2,0,0,5,1.4
+30,Spot_Prawn,exposure_Near,phenology_upwelling,THF,Tim to Calculate,2,2,1,0,5,1.8
+30,Spot_Prawn,exposure_Near,subsurface_oxygen,THF,Tim to Calculate,3,2,0,0,5,1.4
+30,Spot_Prawn,exposure_Far,mean_SST,THF,Tim to Calculate,0,2,2,1,5,2.8
+30,Spot_Prawn,exposure_Far,mean_salinity,THF,Tim to Calculate,1,3,1,0,5,2
+30,Spot_Prawn,exposure_Far,mean_pH,THF,Tim to Calculate,0,0,1,4,5,3.8
+30,Spot_Prawn,exposure_Far,mean_air_temp,THF,Tim to Calculate,2,2,1,0,5,1.8
+30,Spot_Prawn,exposure_Far,mean_percipitation,THF,Tim to Calculate,2,1,1,1,5,2.2
+30,Spot_Prawn,exposure_Far,sea_level_rise,THF,Tim to Calculate,0,3,2,0,5,2.4
+30,Spot_Prawn,exposure_Far,phenology_upwelling,THF,Tim to Calculate,0,1,3,1,5,3
+30,Spot_Prawn,exposure_Far,subsurface_oxygen,THF,Tim to Calculate,0,0,4,1,5,3.2
+24,Red_Sea_Urchin,sensitivity,habitat_specificity,LB,Tim to Calculate,0,0,1,4,5,3.8
+24,Red_Sea_Urchin,sensitivity,prey_specificity,LB,Tim to Calculate,0,3,1,1,5,2.6
+24,Red_Sea_Urchin,sensitivity,adult_mobility,LB,Tim to Calculate,0,0,2,3,5,3.6
+24,Red_Sea_Urchin,sensitivity,dispersal_of_early_life_stages,LB,Tim to Calculate,4,1,0,0,5,1.2
+24,Red_Sea_Urchin,sensitivity,early_life_history_survival_and_settlement,LB,Tim to Calculate,0,1,3,1,5,3
+24,Red_Sea_Urchin,sensitivity,complexity_in_reproductive_strategy,LB,Tim to Calculate,0,2,3,0,5,2.6
+24,Red_Sea_Urchin,sensitivity,spawing_cycle,LB,Tim to Calculate,0,4,1,0,5,2.2
+24,Red_Sea_Urchin,sensitivity,sensitivity_to_temperature,LB,Tim to Calculate,0,2,2,1,5,2.8
+24,Red_Sea_Urchin,sensitivity,sensitivity_to_OA,LB,Tim to Calculate,0,1,3,1,5,3
+24,Red_Sea_Urchin,sensitivity,population_growth_rate,LB,Tim to Calculate,0,2,1,2,5,3
+24,Red_Sea_Urchin,sensitivity,stock_size_or_status,LB,Tim to Calculate,1,3,1,0,5,2
+24,Red_Sea_Urchin,sensitivity,other_stressors,LB,Tim to Calculate,0,2,2,1,5,2.8
+24,Red_Sea_Urchin,exposure_Near,mean_SST,LB,Tim to Calculate,0,2,2,1,5,2.8
+24,Red_Sea_Urchin,exposure_Near,mean_salinity,LB,Tim to Calculate,0,4,1,0,5,2.2
+24,Red_Sea_Urchin,exposure_Near,mean_pH,LB,Tim to Calculate,0,2,3,0,5,2.6
+24,Red_Sea_Urchin,exposure_Near,mean_air_temp,LB,Tim to Calculate,2,2,1,0,5,1.8
+24,Red_Sea_Urchin,exposure_Near,mean_percipitation,LB,Tim to Calculate,4,1,,0,5,1.2
+24,Red_Sea_Urchin,exposure_Near,sea_level_rise,LB,Tim to Calculate,0,3,1,1,5,2.6
+24,Red_Sea_Urchin,exposure_Near,phenology_upwelling,LB,Tim to Calculate,0,1,2,2,5,3.2
+24,Red_Sea_Urchin,exposure_Near,subsurface_oxygen,LB,Tim to Calculate,3,2,0,0,5,1.4
+24,Red_Sea_Urchin,exposure_Far,mean_SST,LB,Tim to Calculate,0,1,2,2,5,3.2
+24,Red_Sea_Urchin,exposure_Far,mean_salinity,LB,Tim to Calculate,0,3,1,1,5,2.6
+24,Red_Sea_Urchin,exposure_Far,mean_pH,LB,Tim to Calculate,0,0,4,1,5,3.2
+24,Red_Sea_Urchin,exposure_Far,mean_air_temp,LB,Tim to Calculate,1,3,1,0,5,2
+24,Red_Sea_Urchin,exposure_Far,mean_percipitation,LB,Tim to Calculate,3,2,0,0,5,1.4
+24,Red_Sea_Urchin,exposure_Far,sea_level_rise,LB,Tim to Calculate,0,2,2,1,5,2.8
+24,Red_Sea_Urchin,exposure_Far,phenology_upwelling,LB,Tim to Calculate,0,0,3,2,5,3.4
+24,Red_Sea_Urchin,exposure_Far,subsurface_oxygen,LB,Tim to Calculate,1,2,1,1,5,2.4
+34,White_Seabass,sensitivity,habitat_specificity,LB,Tim to Calculate,0,0,2,3,5,3.6
+34,White_Seabass,sensitivity,prey_specificity,LB,Tim to Calculate,0,4,1,0,5,2.2
+34,White_Seabass,sensitivity,adult_mobility,LB,Tim to Calculate,5,0,0,0,5,1
+34,White_Seabass,sensitivity,dispersal_of_early_life_stages,LB,Tim to Calculate,1,3,1,0,5,2
+34,White_Seabass,sensitivity,early_life_history_survival_and_settlement,LB,Tim to Calculate,0,1,3,1,5,3
+34,White_Seabass,sensitivity,complexity_in_reproductive_strategy,LB,Tim to Calculate,0,1,3,1,5,3
+34,White_Seabass,sensitivity,spawing_cycle,LB,Tim to Calculate,0,3,2,0,5,2.4
+34,White_Seabass,sensitivity,sensitivity_to_temperature,LB,Tim to Calculate,0,2,3,0,5,2.6
+34,White_Seabass,sensitivity,sensitivity_to_OA,LB,Tim to Calculate,4,1,0,0,5,1.2
+34,White_Seabass,sensitivity,population_growth_rate,LB,Tim to Calculate,0,2,2,1,5,2.8
+34,White_Seabass,sensitivity,stock_size_or_status,LB,Tim to Calculate,0,0,3,2,5,3.4
+34,White_Seabass,sensitivity,other_stressors,LB,Tim to Calculate,0,2,3,0,5,2.6
+34,White_Seabass,exposure_Near,mean_SST,LB,Tim to Calculate,0,2,2,1,5,2.8
+34,White_Seabass,exposure_Near,mean_salinity,LB,Tim to Calculate,4,1,0,0,5,1.2
+34,White_Seabass,exposure_Near,mean_pH,LB,Tim to Calculate,4,1,0,0,5,1.2
+34,White_Seabass,exposure_Near,mean_air_temp,LB,Tim to Calculate,3,2,0,0,5,1.4
+34,White_Seabass,exposure_Near,mean_percipitation,LB,Tim to Calculate,5,0,0,0,5,1
+34,White_Seabass,exposure_Near,sea_level_rise,LB,Tim to Calculate,1,4,0,0,5,1.8
+34,White_Seabass,exposure_Near,phenology_upwelling,LB,Tim to Calculate,1,2,2,0,5,2.2
+34,White_Seabass,exposure_Near,subsurface_oxygen,LB,Tim to Calculate,4,1,0,0,5,1.2
+34,White_Seabass,exposure_Far,mean_SST,LB,Tim to Calculate,0,1,2,2,5,3.2
+34,White_Seabass,exposure_Far,mean_salinity,LB,Tim to Calculate,1,2,1,1,5,2.4
+34,White_Seabass,exposure_Far,mean_pH,LB,Tim to Calculate,3,2,0,0,5,1.4
+34,White_Seabass,exposure_Far,mean_air_temp,LB,Tim to Calculate,2,3,0,0,5,1.6
+34,White_Seabass,exposure_Far,mean_percipitation,LB,Tim to Calculate,5,0,0,0,5,1
+34,White_Seabass,exposure_Far,sea_level_rise,LB,Tim to Calculate,1,4,0,0,5,1.8
+34,White_Seabass,exposure_Far,phenology_upwelling,LB,Tim to Calculate,0,1,3,1,5,3
+34,White_Seabass,exposure_Far,subsurface_oxygen,LB,Tim to Calculate,3,1,1,0,5,1.6
+18,Pacific_Bonito,sensitivity,habitat_specificity,LB,Tim to Calculate,0,0,2,3,5,3.6
+18,Pacific_Bonito,sensitivity,prey_specificity,LB,Tim to Calculate,1,4,0,0,5,1.8
+18,Pacific_Bonito,sensitivity,adult_mobility,LB,Tim to Calculate,5,0,0,0,5,1
+18,Pacific_Bonito,sensitivity,dispersal_of_early_life_stages,LB,Tim to Calculate,3,2,0,0,5,1.4
+18,Pacific_Bonito,sensitivity,early_life_history_survival_and_settlement,LB,Tim to Calculate,0,1,3,1,5,3
+18,Pacific_Bonito,sensitivity,complexity_in_reproductive_strategy,LB,Tim to Calculate,2,2,1,0,5,1.8
+18,Pacific_Bonito,sensitivity,spawing_cycle,LB,Tim to Calculate,0,1,4,0,5,2.8
+18,Pacific_Bonito,sensitivity,sensitivity_to_temperature,LB,Tim to Calculate,0,3,2,0,5,2.4
+18,Pacific_Bonito,sensitivity,sensitivity_to_OA,LB,Tim to Calculate,3,2,0,0,5,1.4
+18,Pacific_Bonito,sensitivity,population_growth_rate,LB,Tim to Calculate,3,2,0,0,5,1.4
+18,Pacific_Bonito,sensitivity,stock_size_or_status,LB,Tim to Calculate,3,2,0,0,5,1.4
+18,Pacific_Bonito,sensitivity,other_stressors,LB,Tim to Calculate,3,2,0,0,5,1.4
+18,Pacific_Bonito,exposure_Near,mean_SST,LB,Tim to Calculate,0,1,3,1,5,3
+18,Pacific_Bonito,exposure_Near,mean_salinity,LB,Tim to Calculate,4,1,0,0,5,1.2
+18,Pacific_Bonito,exposure_Near,mean_pH,LB,Tim to Calculate,4,1,0,0,5,1.2
+18,Pacific_Bonito,exposure_Near,mean_air_temp,LB,Tim to Calculate,5,0,0,0,5,1
+18,Pacific_Bonito,exposure_Near,mean_percipitation,LB,Tim to Calculate,5,0,0,0,5,1
+18,Pacific_Bonito,exposure_Near,sea_level_rise,LB,Tim to Calculate,4,1,0,0,5,1.2
+18,Pacific_Bonito,exposure_Near,phenology_upwelling,LB,Tim to Calculate,1,2,2,0,5,2.2
+18,Pacific_Bonito,exposure_Near,subsurface_oxygen,LB,Tim to Calculate,3,2,0,0,5,1.4
+18,Pacific_Bonito,exposure_Far,mean_SST,LB,Tim to Calculate,0,1,2,2,5,3.2
+18,Pacific_Bonito,exposure_Far,mean_salinity,LB,Tim to Calculate,1,2,2,0,5,2.2
+18,Pacific_Bonito,exposure_Far,mean_pH,LB,Tim to Calculate,3,2,0,0,5,1.4
+18,Pacific_Bonito,exposure_Far,mean_air_temp,LB,Tim to Calculate,4,1,0,0,5,1.2
+18,Pacific_Bonito,exposure_Far,mean_percipitation,LB,Tim to Calculate,5,0,0,0,5,1
+18,Pacific_Bonito,exposure_Far,sea_level_rise,LB,Tim to Calculate,4,1,0,0,5,1.2
+18,Pacific_Bonito,exposure_Far,phenology_upwelling,LB,Tim to Calculate,0,2,3,0,5,2.6
+18,Pacific_Bonito,exposure_Far,subsurface_oxygen,LB,Tim to Calculate,2,2,1,0,5,1.8
+23,Red_Abalone,sensitivity,habitat_specificity,LB,Tim to Calculate,0,0,0,5,5,4
+23,Red_Abalone,sensitivity,prey_specificity,LB,Tim to Calculate,0,0,2,3,5,3.6
+23,Red_Abalone,sensitivity,adult_mobility,LB,Tim to Calculate,0,0,2,3,5,3.6
+23,Red_Abalone,sensitivity,dispersal_of_early_life_stages,LB,Tim to Calculate,0,0,2,3,5,3.6
+23,Red_Abalone,sensitivity,early_life_history_survival_and_settlement,LB,Tim to Calculate,0,0,1,4,5,3.8
+23,Red_Abalone,sensitivity,complexity_in_reproductive_strategy,LB,Tim to Calculate,0,0,3,2,5,3.4
+23,Red_Abalone,sensitivity,spawing_cycle,LB,Tim to Calculate,0,1,4,0,5,2.8
+23,Red_Abalone,sensitivity,sensitivity_to_temperature,LB,Tim to Calculate,0,0,0,5,5,4
+23,Red_Abalone,sensitivity,sensitivity_to_OA,LB,Tim to Calculate,0,0,2,3,5,3.6
+23,Red_Abalone,sensitivity,population_growth_rate,LB,Tim to Calculate,0,0,0,5,5,4
+23,Red_Abalone,sensitivity,stock_size_or_status,LB,Tim to Calculate,0,0,0,5,5,4
+23,Red_Abalone,sensitivity,other_stressors,LB,Tim to Calculate,0,0,0,5,5,4
+23,Red_Abalone,exposure_Near,mean_SST,LB,Tim to Calculate,0,0,1,4,5,3.8
+23,Red_Abalone,exposure_Near,mean_salinity,LB,Tim to Calculate,0,4,1,0,5,2.2
+23,Red_Abalone,exposure_Near,mean_pH,LB,Tim to Calculate,0,1,3,1,5,3
+23,Red_Abalone,exposure_Near,mean_air_temp,LB,Tim to Calculate,1,2,2,0,5,2.2
+23,Red_Abalone,exposure_Near,mean_percipitation,LB,Tim to Calculate,3,2,0,0,5,1.4
+23,Red_Abalone,exposure_Near,sea_level_rise,LB,Tim to Calculate,0,3,1,1,5,2.6
+23,Red_Abalone,exposure_Near,phenology_upwelling,LB,Tim to Calculate,0,0,2,3,5,3.6
+23,Red_Abalone,exposure_Near,subsurface_oxygen,LB,Tim to Calculate,3,2,0,0,5,1.4
+23,Red_Abalone,exposure_Far,mean_SST,LB,Tim to Calculate,0,0,0,5,5,4
+23,Red_Abalone,exposure_Far,mean_salinity,LB,Tim to Calculate,0,3,1,1,5,2.6
+23,Red_Abalone,exposure_Far,mean_pH,LB,Tim to Calculate,0,0,4,1,5,3.2
+23,Red_Abalone,exposure_Far,mean_air_temp,LB,Tim to Calculate,0,3,2,0,5,2.4
+23,Red_Abalone,exposure_Far,mean_percipitation,LB,Tim to Calculate,1,3,1,0,5,2
+23,Red_Abalone,exposure_Far,sea_level_rise,LB,Tim to Calculate,0,2,2,1,5,2.8
+23,Red_Abalone,exposure_Far,phenology_upwelling,LB,Tim to Calculate,0,0,0,5,5,4
+23,Red_Abalone,exposure_Far,subsurface_oxygen,LB,Tim to Calculate,1,2,1,1,5,2.4
+20,Pacific_Hagfish,sensitivity,habitat_specificity,LB,Tim to Calculate,4,1,0,0,5,1.2
+20,Pacific_Hagfish,sensitivity,prey_specificity,LB,Tim to Calculate,3,2,0,0,5,1.4
+20,Pacific_Hagfish,sensitivity,adult_mobility,LB,Tim to Calculate,0,1,4,0,5,2.8
+20,Pacific_Hagfish,sensitivity,dispersal_of_early_life_stages,LB,Tim to Calculate,0,3,2,0,5,2.4
+20,Pacific_Hagfish,sensitivity,early_life_history_survival_and_settlement,LB,Tim to Calculate,4,1,0,0,5,1.2
+20,Pacific_Hagfish,sensitivity,complexity_in_reproductive_strategy,LB,Tim to Calculate,4,1,0,0,5,1.2
+20,Pacific_Hagfish,sensitivity,spawing_cycle,LB,Tim to Calculate,5,0,0,0,5,1
+20,Pacific_Hagfish,sensitivity,sensitivity_to_temperature,LB,Tim to Calculate,3,2,0,0,5,1.4
+20,Pacific_Hagfish,sensitivity,sensitivity_to_OA,LB,Tim to Calculate,4,1,0,0,5,1.2
+20,Pacific_Hagfish,sensitivity,population_growth_rate,LB,Tim to Calculate,1,1,2,1,5,2.6
+20,Pacific_Hagfish,sensitivity,stock_size_or_status,LB,Tim to Calculate,4,1,0,0,5,1.2
+20,Pacific_Hagfish,sensitivity,other_stressors,LB,Tim to Calculate,3,2,0,0,5,1.4
+20,Pacific_Hagfish,exposure_Near,mean_SST,LB,Tim to Calculate,4,1,0,0,5,1.2
+20,Pacific_Hagfish,exposure_Near,mean_salinity,LB,Tim to Calculate,4,1,0,0,5,1.2
+20,Pacific_Hagfish,exposure_Near,mean_pH,LB,Tim to Calculate,5,0,0,0,5,1
+20,Pacific_Hagfish,exposure_Near,mean_air_temp,LB,Tim to Calculate,5,0,0,0,5,1
+20,Pacific_Hagfish,exposure_Near,mean_percipitation,LB,Tim to Calculate,5,0,0,0,5,1
+20,Pacific_Hagfish,exposure_Near,sea_level_rise,LB,Tim to Calculate,4,1,0,0,5,1.2
+20,Pacific_Hagfish,exposure_Near,phenology_upwelling,LB,Tim to Calculate,3,2,0,0,5,1.4
+20,Pacific_Hagfish,exposure_Near,subsurface_oxygen,LB,Tim to Calculate,4,1,0,0,5,1.2
+20,Pacific_Hagfish,exposure_Far,mean_SST,LB,Tim to Calculate,3,2,0,0,5,1.4
+20,Pacific_Hagfish,exposure_Far,mean_salinity,LB,Tim to Calculate,2,1,1,1,5,2.2
+20,Pacific_Hagfish,exposure_Far,mean_pH,LB,Tim to Calculate,4,1,0,0,5,1.2
+20,Pacific_Hagfish,exposure_Far,mean_air_temp,LB,Tim to Calculate,5,0,0,0,5,1
+20,Pacific_Hagfish,exposure_Far,mean_percipitation,LB,Tim to Calculate,5,0,0,0,5,1
+20,Pacific_Hagfish,exposure_Far,sea_level_rise,LB,Tim to Calculate,4,1,0,0,5,1.2
+20,Pacific_Hagfish,exposure_Far,phenology_upwelling,LB,Tim to Calculate,2,2,1,0,5,1.8
+20,Pacific_Hagfish,exposure_Far,subsurface_oxygen,LB,Tim to Calculate,5,0,0,0,5,1
+30,Spot_Prawn,sensitivity,habitat_specificity,LB,Tim to Calculate,0,2,2,1,5,2.8
+30,Spot_Prawn,sensitivity,prey_specificity,LB,Tim to Calculate,4,1,0,0,5,1.2
+30,Spot_Prawn,sensitivity,adult_mobility,LB,Tim to Calculate,0,0,4,1,5,3.2
+30,Spot_Prawn,sensitivity,dispersal_of_early_life_stages,LB,Tim to Calculate,2,2,1,0,5,1.8
+30,Spot_Prawn,sensitivity,early_life_history_survival_and_settlement,LB,Tim to Calculate,1,1,2,1,5,2.6
+30,Spot_Prawn,sensitivity,complexity_in_reproductive_strategy,LB,Tim to Calculate,1,2,2,0,5,2.2
+30,Spot_Prawn,sensitivity,spawing_cycle,LB,Tim to Calculate,0,0,1,4,5,3.8
+30,Spot_Prawn,sensitivity,sensitivity_to_temperature,LB,Tim to Calculate,0,3,2,0,5,2.4
+30,Spot_Prawn,sensitivity,sensitivity_to_OA,LB,Tim to Calculate,0,1,3,1,5,3
+30,Spot_Prawn,sensitivity,population_growth_rate,LB,Tim to Calculate,3,1,1,0,5,1.6
+30,Spot_Prawn,sensitivity,stock_size_or_status,LB,Tim to Calculate,4,1,0,0,5,1.2
+30,Spot_Prawn,sensitivity,other_stressors,LB,Tim to Calculate,2,3,0,0,5,1.6
+30,Spot_Prawn,exposure_Near,mean_SST,LB,Tim to Calculate,3,2,0,0,5,1.4
+30,Spot_Prawn,exposure_Near,mean_salinity,LB,Tim to Calculate,4,1,0,0,5,1.2
+30,Spot_Prawn,exposure_Near,mean_pH,LB,Tim to Calculate,1,3,1,0,5,2
+30,Spot_Prawn,exposure_Near,mean_air_temp,LB,Tim to Calculate,5,0,0,0,5,1
+30,Spot_Prawn,exposure_Near,mean_percipitation,LB,Tim to Calculate,5,0,0,0,5,1
+30,Spot_Prawn,exposure_Near,sea_level_rise,LB,Tim to Calculate,3,2,0,0,5,1.4
+30,Spot_Prawn,exposure_Near,phenology_upwelling,LB,Tim to Calculate,2,2,1,0,5,1.8
+30,Spot_Prawn,exposure_Near,subsurface_oxygen,LB,Tim to Calculate,1,2,2,0,5,2.2
+30,Spot_Prawn,exposure_Far,mean_SST,LB,Tim to Calculate,2,3,0,0,5,1.6
+30,Spot_Prawn,exposure_Far,mean_salinity,LB,Tim to Calculate,1,2,1,1,5,2.4
+30,Spot_Prawn,exposure_Far,mean_pH,LB,Tim to Calculate,1,2,2,0,5,2.2
+30,Spot_Prawn,exposure_Far,mean_air_temp,LB,Tim to Calculate,4,1,0,0,5,1.2
+30,Spot_Prawn,exposure_Far,mean_percipitation,LB,Tim to Calculate,5,0,0,0,5,1
+30,Spot_Prawn,exposure_Far,sea_level_rise,LB,Tim to Calculate,3,2,0,0,5,1.4
+30,Spot_Prawn,exposure_Far,phenology_upwelling,LB,Tim to Calculate,1,3,1,0,5,2
+30,Spot_Prawn,exposure_Far,subsurface_oxygen,LB,Tim to Calculate,0,1,3,1,5,3
+4,CA_Sheephead,exposure_Far,mean_air_temp,MP,Tim to Calculate,3,2,0,0,5,1.4
+4,CA_Sheephead,exposure_Far,mean_percipitation,MP,Tim to Calculate,3,1,1,0,5,1.6
+4,CA_Sheephead,exposure_Far,mean_pH,MP,Tim to Calculate,0,0,0,5,5,4
+4,CA_Sheephead,exposure_Far,mean_salinity,MP,Tim to Calculate,1,3,1,0,5,2
+4,CA_Sheephead,exposure_Far,mean_SST,MP,Tim to Calculate,0,3,2,0,5,2.4
+4,CA_Sheephead,exposure_Far,phenology_upwelling,MP,Tim to Calculate,1,3,1,0,5,2
+4,CA_Sheephead,exposure_Far,sea_level_rise,MP,Tim to Calculate,0,3,2,0,5,2.4
+4,CA_Sheephead,exposure_Far,subsurface_oxygen,MP,Tim to Calculate,0,1,3,1,5,3
+4,CA_Sheephead,exposure_Near,mean_air_temp,MP,Tim to Calculate,4,1,0,0,5,1.2
+4,CA_Sheephead,exposure_Near,mean_percipitation,MP,Tim to Calculate,4,1,0,0,5,1.2
+4,CA_Sheephead,exposure_Near,mean_pH,MP,Tim to Calculate,1,3,1,0,5,2
+4,CA_Sheephead,exposure_Near,mean_salinity,MP,Tim to Calculate,4,1,0,0,5,1.2
+4,CA_Sheephead,exposure_Near,mean_SST,MP,Tim to Calculate,2,3,0,0,5,1.6
+4,CA_Sheephead,exposure_Near,phenology_upwelling,MP,Tim to Calculate,3,2,0,0,5,1.4
+4,CA_Sheephead,exposure_Near,sea_level_rise,MP,Tim to Calculate,1,3,1,0,5,2
+4,CA_Sheephead,exposure_Near,subsurface_oxygen,MP,Tim to Calculate,4,1,0,0,5,1.2
+4,CA_Sheephead,sensitivity,adult_mobility,MP,Tim to Calculate,0,1,4,0,5,2.8
+4,CA_Sheephead,sensitivity,complexity_in_reproductive_strategy,MP,Tim to Calculate,1,4,0,0,5,1.8
+4,CA_Sheephead,sensitivity,dispersal_of_early_life_stages,MP,Tim to Calculate,0,3,2,0,5,2.4
+4,CA_Sheephead,sensitivity,early_life_history_survival_and_settlement,MP,Tim to Calculate,0,3,2,0,5,2.4
+4,CA_Sheephead,sensitivity,habitat_specificity,MP,Tim to Calculate,0,0,1,4,5,3.8
+4,CA_Sheephead,sensitivity,other_stressors,MP,Tim to Calculate,0,0,4,1,5,3.2
+4,CA_Sheephead,sensitivity,population_growth_rate,MP,Tim to Calculate,0,2,3,0,5,2.6
+4,CA_Sheephead,sensitivity,prey_specificity,MP,Tim to Calculate,3,2,0,0,5,1.4
+4,CA_Sheephead,sensitivity,sensitivity_to_OA,MP,Tim to Calculate,0,1,4,0,5,2.8
+4,CA_Sheephead,sensitivity,sensitivity_to_temperature,MP,Tim to Calculate,0,1,3,1,5,3
+4,CA_Sheephead,sensitivity,spawing_cycle,MP,Tim to Calculate,1,4,0,0,5,1.8
+4,CA_Sheephead,sensitivity,stock_size_or_status,MP,Tim to Calculate,0,1,3,1,5,3
+8,CA_Halibut,exposure_Far,mean_air_temp,MP,Tim to Calculate,1,4,0,0,5,1.8
+8,CA_Halibut,exposure_Far,mean_percipitation,MP,Tim to Calculate,2,3,0,0,5,1.6
+8,CA_Halibut,exposure_Far,mean_pH,MP,Tim to Calculate,0,0,0,5,5,4
+8,CA_Halibut,exposure_Far,mean_salinity,MP,Tim to Calculate,2,3,0,0,5,1.6
+8,CA_Halibut,exposure_Far,mean_SST,MP,Tim to Calculate,0,3,1,1,5,2.6
+8,CA_Halibut,exposure_Far,phenology_upwelling,MP,Tim to Calculate,0,4,1,0,5,2.2
+8,CA_Halibut,exposure_Far,sea_level_rise,MP,Tim to Calculate,0,1,3,1,5,3
+8,CA_Halibut,exposure_Far,subsurface_oxygen,MP,Tim to Calculate,0,0,4,1,5,3.2
+8,CA_Halibut,exposure_Near,mean_air_temp,MP,Tim to Calculate,4,1,0,0,5,1.2
+8,CA_Halibut,exposure_Near,mean_percipitation,MP,Tim to Calculate,3,2,0,0,5,1.4
+8,CA_Halibut,exposure_Near,mean_pH,MP,Tim to Calculate,1,3,1,0,5,2
+8,CA_Halibut,exposure_Near,mean_salinity,MP,Tim to Calculate,5,0,0,0,5,1
+8,CA_Halibut,exposure_Near,mean_SST,MP,Tim to Calculate,5,0,0,0,5,1
+8,CA_Halibut,exposure_Near,phenology_upwelling,MP,Tim to Calculate,5,0,0,0,5,1
+8,CA_Halibut,exposure_Near,sea_level_rise,MP,Tim to Calculate,0,2,3,0,5,2.6
+8,CA_Halibut,exposure_Near,subsurface_oxygen,MP,Tim to Calculate,5,0,0,0,5,1
+8,CA_Halibut,sensitivity,adult_mobility,MP,Tim to Calculate,2,3,0,0,5,1.6
+8,CA_Halibut,sensitivity,complexity_in_reproductive_strategy,MP,Tim to Calculate,1,4,0,0,5,1.8
+8,CA_Halibut,sensitivity,dispersal_of_early_life_stages,MP,Tim to Calculate,1,4,0,0,5,1.8
+8,CA_Halibut,sensitivity,early_life_history_survival_and_settlement,MP,Tim to Calculate,2,3,0,0,5,1.6
+8,CA_Halibut,sensitivity,habitat_specificity,MP,Tim to Calculate,3,1,1,0,5,1.6
+8,CA_Halibut,sensitivity,other_stressors,MP,Tim to Calculate,4,1,0,0,5,1.2
+8,CA_Halibut,sensitivity,population_growth_rate,MP,Tim to Calculate,0,2,3,0,5,2.6
+8,CA_Halibut,sensitivity,prey_specificity,MP,Tim to Calculate,4,1,0,0,5,1.2
+8,CA_Halibut,sensitivity,sensitivity_to_OA,MP,Tim to Calculate,4,1,0,0,5,1.2
+8,CA_Halibut,sensitivity,sensitivity_to_temperature,MP,Tim to Calculate,4,1,0,0,5,1.2
+8,CA_Halibut,sensitivity,spawing_cycle,MP,Tim to Calculate,5,0,0,0,5,1
+8,CA_Halibut,sensitivity,stock_size_or_status,MP,Tim to Calculate,1,3,1,0,5,2
+18,Pacific_Bonito,exposure_Far,mean_air_temp,MP,Tim to Calculate,1,3,1,0,5,2
+18,Pacific_Bonito,exposure_Far,mean_percipitation,MP,Tim to Calculate,4,1,0,0,5,1.2
+18,Pacific_Bonito,exposure_Far,mean_pH,MP,Tim to Calculate,0,0,0,5,5,4
+18,Pacific_Bonito,exposure_Far,mean_salinity,MP,Tim to Calculate,0,1,3,1,5,3
+18,Pacific_Bonito,exposure_Far,mean_SST,MP,Tim to Calculate,0,1,1,3,5,3.4
+18,Pacific_Bonito,exposure_Far,phenology_upwelling,MP,Tim to Calculate,2,3,0,0,5,1.6
+18,Pacific_Bonito,exposure_Far,sea_level_rise,MP,Tim to Calculate,3,2,0,0,5,1.4
+18,Pacific_Bonito,exposure_Far,subsurface_oxygen,MP,Tim to Calculate,0,1,3,1,5,3
+18,Pacific_Bonito,exposure_Near,mean_air_temp,MP,Tim to Calculate,3,2,0,0,5,1.4
+18,Pacific_Bonito,exposure_Near,mean_percipitation,MP,Tim to Calculate,5,0,0,0,5,1
+18,Pacific_Bonito,exposure_Near,mean_pH,MP,Tim to Calculate,1,3,1,0,5,2
+18,Pacific_Bonito,exposure_Near,mean_salinity,MP,Tim to Calculate,3,2,0,0,5,1.4
+18,Pacific_Bonito,exposure_Near,mean_SST,MP,Tim to Calculate,2,2,1,0,5,1.8
+18,Pacific_Bonito,exposure_Near,phenology_upwelling,MP,Tim to Calculate,4,1,0,0,5,1.2
+18,Pacific_Bonito,exposure_Near,sea_level_rise,MP,Tim to Calculate,4,1,0,0,5,1.2
+18,Pacific_Bonito,exposure_Near,subsurface_oxygen,MP,Tim to Calculate,4,1,0,0,5,1.2
+18,Pacific_Bonito,sensitivity,adult_mobility,MP,Tim to Calculate,5,0,0,0,5,1
+18,Pacific_Bonito,sensitivity,complexity_in_reproductive_strategy,MP,Tim to Calculate,1,2,1,1,5,2.4
+18,Pacific_Bonito,sensitivity,dispersal_of_early_life_stages,MP,Tim to Calculate,1,1,1,2,5,2.8
+18,Pacific_Bonito,sensitivity,early_life_history_survival_and_settlement,MP,Tim to Calculate,1,2,1,1,5,2.4
+18,Pacific_Bonito,sensitivity,habitat_specificity,MP,Tim to Calculate,0,0,2,3,5,3.6
+18,Pacific_Bonito,sensitivity,other_stressors,MP,Tim to Calculate,3,2,0,0,5,1.4
+18,Pacific_Bonito,sensitivity,population_growth_rate,MP,Tim to Calculate,4,1,0,0,5,1.2
+18,Pacific_Bonito,sensitivity,prey_specificity,MP,Tim to Calculate,4,1,0,0,5,1.2
+18,Pacific_Bonito,sensitivity,sensitivity_to_OA,MP,Tim to Calculate,5,0,0,0,5,1
+18,Pacific_Bonito,sensitivity,sensitivity_to_temperature,MP,Tim to Calculate,5,0,0,0,5,1
+18,Pacific_Bonito,sensitivity,spawing_cycle,MP,Tim to Calculate,0,1,3,1,5,3
+18,Pacific_Bonito,sensitivity,stock_size_or_status,MP,Tim to Calculate,3,1,1,0,5,1.6
+23,Red_Abalone,exposure_Far,mean_air_temp,MP,Tim to Calculate,2,2,1,0,5,1.8
+23,Red_Abalone,exposure_Far,mean_percipitation,MP,Tim to Calculate,4,1,0,0,5,1.2
+23,Red_Abalone,exposure_Far,mean_pH,MP,Tim to Calculate,0,0,0,5,5,4
+23,Red_Abalone,exposure_Far,mean_salinity,MP,Tim to Calculate,0,3,1,1,5,2.6
+23,Red_Abalone,exposure_Far,mean_SST,MP,Tim to Calculate,0,1,1,3,5,3.4
+23,Red_Abalone,exposure_Far,phenology_upwelling,MP,Tim to Calculate,2,2,1,0,5,1.8
+23,Red_Abalone,exposure_Far,sea_level_rise,MP,Tim to Calculate,1,3,1,0,5,2
+23,Red_Abalone,exposure_Far,subsurface_oxygen,MP,Tim to Calculate,0,2,3,0,5,2.6
+23,Red_Abalone,exposure_Near,mean_air_temp,MP,Tim to Calculate,4,1,0,0,5,1.2
+23,Red_Abalone,exposure_Near,mean_percipitation,MP,Tim to Calculate,5,0,0,0,5,1
+23,Red_Abalone,exposure_Near,mean_pH,MP,Tim to Calculate,1,3,1,0,5,2
+23,Red_Abalone,exposure_Near,mean_salinity,MP,Tim to Calculate,4,1,0,0,5,1.2
+23,Red_Abalone,exposure_Near,mean_SST,MP,Tim to Calculate,3,1,1,0,5,1.6
+23,Red_Abalone,exposure_Near,phenology_upwelling,MP,Tim to Calculate,4,1,0,0,5,1.2
+23,Red_Abalone,exposure_Near,sea_level_rise,MP,Tim to Calculate,4,1,0,0,5,1.2
+23,Red_Abalone,exposure_Near,subsurface_oxygen,MP,Tim to Calculate,4,1,0,0,5,1.2
+23,Red_Abalone,sensitivity,adult_mobility,MP,Tim to Calculate,0,0,4,1,5,3.2
+23,Red_Abalone,sensitivity,complexity_in_reproductive_strategy,MP,Tim to Calculate,0,0,2,3,5,3.6
+23,Red_Abalone,sensitivity,dispersal_of_early_life_stages,MP,Tim to Calculate,0,0,4,1,5,3.2
+23,Red_Abalone,sensitivity,early_life_history_survival_and_settlement,MP,Tim to Calculate,0,0,2,3,5,3.6
+23,Red_Abalone,sensitivity,habitat_specificity,MP,Tim to Calculate,0,0,0,5,5,4
+23,Red_Abalone,sensitivity,other_stressors,MP,Tim to Calculate,0,0,0,5,5,4
+23,Red_Abalone,sensitivity,population_growth_rate,MP,Tim to Calculate,0,0,1,4,5,3.8
+23,Red_Abalone,sensitivity,prey_specificity,MP,Tim to Calculate,0,0,2,3,5,3.6
+23,Red_Abalone,sensitivity,sensitivity_to_OA,MP,Tim to Calculate,0,0,1,4,5,3.8
+23,Red_Abalone,sensitivity,sensitivity_to_temperature,MP,Tim to Calculate,4,1,0,0,5,1.2
+23,Red_Abalone,sensitivity,spawing_cycle,MP,Tim to Calculate,4,1,0,0,5,1.2
+23,Red_Abalone,sensitivity,stock_size_or_status,MP,Tim to Calculate,0,0,1,4,5,3.8
+32,Warty_Sea_Cucumber,exposure_Far,mean_air_temp,MP,Tim to Calculate,3,1,1,0,5,1.6
+32,Warty_Sea_Cucumber,exposure_Far,mean_percipitation,MP,Tim to Calculate,3,1,1,0,5,1.6
+32,Warty_Sea_Cucumber,exposure_Far,mean_pH,MP,Tim to Calculate,0,0,0,5,5,4
+32,Warty_Sea_Cucumber,exposure_Far,mean_salinity,MP,Tim to Calculate,2,2,1,0,5,1.8
+32,Warty_Sea_Cucumber,exposure_Far,mean_SST,MP,Tim to Calculate,1,2,2,0,5,2.2
+32,Warty_Sea_Cucumber,exposure_Far,phenology_upwelling,MP,Tim to Calculate,0,1,3,1,5,3
+32,Warty_Sea_Cucumber,exposure_Far,sea_level_rise,MP,Tim to Calculate,1,3,1,0,5,2
+32,Warty_Sea_Cucumber,exposure_Far,subsurface_oxygen,MP,Tim to Calculate,0,0,2,3,5,3.6
+32,Warty_Sea_Cucumber,exposure_Near,mean_air_temp,MP,Tim to Calculate,4,1,0,0,5,1.2
+32,Warty_Sea_Cucumber,exposure_Near,mean_percipitation,MP,Tim to Calculate,4,1,0,0,5,1.2
+32,Warty_Sea_Cucumber,exposure_Near,mean_pH,MP,Tim to Calculate,1,3,1,0,5,2
+32,Warty_Sea_Cucumber,exposure_Near,mean_salinity,MP,Tim to Calculate,3,2,0,0,5,1.4
+32,Warty_Sea_Cucumber,exposure_Near,mean_SST,MP,Tim to Calculate,4,1,0,0,5,1.2
+32,Warty_Sea_Cucumber,exposure_Near,phenology_upwelling,MP,Tim to Calculate,1,3,1,0,5,2
+32,Warty_Sea_Cucumber,exposure_Near,sea_level_rise,MP,Tim to Calculate,3,2,0,0,5,1.4
+32,Warty_Sea_Cucumber,exposure_Near,subsurface_oxygen,MP,Tim to Calculate,3,1,1,0,5,1.6
+32,Warty_Sea_Cucumber,sensitivity,adult_mobility,MP,Tim to Calculate,0,1,3,1,5,3
+32,Warty_Sea_Cucumber,sensitivity,complexity_in_reproductive_strategy,MP,Tim to Calculate,0,2,3,0,5,2.6
+32,Warty_Sea_Cucumber,sensitivity,dispersal_of_early_life_stages,MP,Tim to Calculate,1,3,1,0,5,2
+32,Warty_Sea_Cucumber,sensitivity,early_life_history_survival_and_settlement,MP,Tim to Calculate,1,2,2,0,5,2.2
+32,Warty_Sea_Cucumber,sensitivity,habitat_specificity,MP,Tim to Calculate,0,1,3,1,5,3
+32,Warty_Sea_Cucumber,sensitivity,other_stressors,MP,Tim to Calculate,0,2,2,1,5,2.8
+32,Warty_Sea_Cucumber,sensitivity,population_growth_rate,MP,Tim to Calculate,1,1,2,1,5,2.6
+32,Warty_Sea_Cucumber,sensitivity,prey_specificity,MP,Tim to Calculate,4,1,0,0,5,1.2
+32,Warty_Sea_Cucumber,sensitivity,sensitivity_to_OA,MP,Tim to Calculate,4,1,0,0,5,1.2
+32,Warty_Sea_Cucumber,sensitivity,sensitivity_to_temperature,MP,Tim to Calculate,0,0,2,3,5,3.6
+32,Warty_Sea_Cucumber,sensitivity,spawing_cycle,MP,Tim to Calculate,0,1,3,1,5,3
+32,Warty_Sea_Cucumber,sensitivity,stock_size_or_status,MP,Tim to Calculate,0,1,2,2,5,3.2
+34,White_Seabass,exposure_Far,mean_air_temp,MP,Tim to Calculate,1,4,0,0,5,1.8
+34,White_Seabass,exposure_Far,mean_percipitation,MP,Tim to Calculate,2,3,0,0,5,1.6
+34,White_Seabass,exposure_Far,mean_pH,MP,Tim to Calculate,0,0,0,5,5,4
+34,White_Seabass,exposure_Far,mean_salinity,MP,Tim to Calculate,1,3,1,0,5,2
+34,White_Seabass,exposure_Far,mean_SST,MP,Tim to Calculate,0,0,3,2,5,3.4
+34,White_Seabass,exposure_Far,phenology_upwelling,MP,Tim to Calculate,0,4,1,0,5,2.2
+34,White_Seabass,exposure_Far,sea_level_rise,MP,Tim to Calculate,1,4,0,0,5,1.8
+34,White_Seabass,exposure_Far,subsurface_oxygen,MP,Tim to Calculate,0,0,4,1,5,3.2
+34,White_Seabass,exposure_Near,mean_air_temp,MP,Tim to Calculate,4,1,0,0,5,1.2
+34,White_Seabass,exposure_Near,mean_percipitation,MP,Tim to Calculate,3,2,0,0,5,1.4
+34,White_Seabass,exposure_Near,mean_pH,MP,Tim to Calculate,1,3,1,0,5,2
+34,White_Seabass,exposure_Near,mean_salinity,MP,Tim to Calculate,4,1,0,0,5,1.2
+34,White_Seabass,exposure_Near,mean_SST,MP,Tim to Calculate,4,1,0,0,5,1.2
+34,White_Seabass,exposure_Near,phenology_upwelling,MP,Tim to Calculate,5,0,0,0,5,1
+34,White_Seabass,exposure_Near,sea_level_rise,MP,Tim to Calculate,1,4,0,0,5,1.8
+34,White_Seabass,exposure_Near,subsurface_oxygen,MP,Tim to Calculate,5,0,0,0,5,1
+34,White_Seabass,sensitivity,adult_mobility,MP,Tim to Calculate,3,2,0,0,5,1.4
+34,White_Seabass,sensitivity,complexity_in_reproductive_strategy,MP,Tim to Calculate,1,4,0,0,5,1.8
+34,White_Seabass,sensitivity,dispersal_of_early_life_stages,MP,Tim to Calculate,0,3,2,0,5,2.4
+34,White_Seabass,sensitivity,early_life_history_survival_and_settlement,MP,Tim to Calculate,1,3,1,0,5,2
+34,White_Seabass,sensitivity,habitat_specificity,MP,Tim to Calculate,0,3,2,0,5,2.4
+34,White_Seabass,sensitivity,other_stressors,MP,Tim to Calculate,0,4,1,0,5,2.2
+34,White_Seabass,sensitivity,population_growth_rate,MP,Tim to Calculate,0,4,1,0,5,2.2
+34,White_Seabass,sensitivity,prey_specificity,MP,Tim to Calculate,4,1,0,0,5,1.2
+34,White_Seabass,sensitivity,sensitivity_to_OA,MP,Tim to Calculate,4,1,0,0,5,1.2
+34,White_Seabass,sensitivity,sensitivity_to_temperature,MP,Tim to Calculate,5,0,0,0,5,1
+34,White_Seabass,sensitivity,spawing_cycle,MP,Tim to Calculate,0,3,2,0,5,2.4
+34,White_Seabass,sensitivity,stock_size_or_status,MP,Tim to Calculate,1,3,1,0,5,2
+8,CA_Halibut,sensitivity,habitat_specificity,HB,Tim to Calculate,1,3,1,0,5,2
+8,CA_Halibut,sensitivity,prey_specificity,HB,Tim to Calculate,0,2,0,0,2,0.8
+8,CA_Halibut,sensitivity,adult_mobility,HB,Tim to Calculate,2,2,1,0,5,1.8
+8,CA_Halibut,sensitivity,dispersal_of_early_life_stages,HB,Tim to Calculate,1,3,1,0,5,2
+8,CA_Halibut,sensitivity,early_life_history_survival_and_settlement,HB,Tim to Calculate,1,3,1,0,5,2
+8,CA_Halibut,sensitivity,complexity_in_reproductive_strategy,HB,Tim to Calculate,4,1,0,0,5,1.2
+8,CA_Halibut,sensitivity,spawing_cycle,HB,Tim to Calculate,2,3,0,0,5,1.6
+8,CA_Halibut,sensitivity,sensitivity_to_temperature,HB,Tim to Calculate,3,2,0,0,5,1.4
+8,CA_Halibut,sensitivity,sensitivity_to_OA,HB,Tim to Calculate,2,3,0,0,5,1.6
+8,CA_Halibut,sensitivity,population_growth_rate,HB,Tim to Calculate,1,3,1,0,5,2
+8,CA_Halibut,sensitivity,stock_size_or_status,HB,Tim to Calculate,2,3,0,0,5,1.6
+8,CA_Halibut,sensitivity,other_stressors,HB,Tim to Calculate,3,2,0,0,5,1.4
+8,CA_Halibut,exposure_Near,mean_SST,HB,Tim to Calculate,0,2,3,0,5,2.6
+8,CA_Halibut,exposure_Near,mean_salinity,HB,Tim to Calculate,2,3,0,0,5,1.6
+8,CA_Halibut,exposure_Near,mean_pH,HB,Tim to Calculate,0,1,3,1,5,3
+8,CA_Halibut,exposure_Near,mean_air_temp,HB,Tim to Calculate,1,4,0,0,5,1.8
+8,CA_Halibut,exposure_Near,mean_percipitation,HB,Tim to Calculate,0,4,1,0,5,2.2
+8,CA_Halibut,exposure_Near,sea_level_rise,HB,Tim to Calculate,0,1,3,1,5,3
+8,CA_Halibut,exposure_Near,phenology_upwelling,HB,Tim to Calculate,3,2,0,0,5,1.4
+8,CA_Halibut,exposure_Near,subsurface_oxygen,HB,Tim to Calculate,3,2,0,0,5,1.4
+8,CA_Halibut,exposure_Far,mean_SST,HB,Tim to Calculate,0,0,3,2,5,3.4
+8,CA_Halibut,exposure_Far,mean_salinity,HB,Tim to Calculate,0,2,3,0,5,2.6
+8,CA_Halibut,exposure_Far,mean_pH,HB,Tim to Calculate,0,0,3,2,5,3.4
+8,CA_Halibut,exposure_Far,mean_air_temp,HB,Tim to Calculate,0,3,2,0,5,2.4
+8,CA_Halibut,exposure_Far,mean_percipitation,HB,Tim to Calculate,0,1,4,0,5,2.8
+8,CA_Halibut,exposure_Far,sea_level_rise,HB,Tim to Calculate,0,0,2,3,5,3.6
+8,CA_Halibut,exposure_Far,phenology_upwelling,HB,Tim to Calculate,2,3,0,0,5,1.6
+8,CA_Halibut,exposure_Far,subsurface_oxygen,HB,Tim to Calculate,0,2,2,1,5,2.8
+34,White_Seabass,sensitivity,habitat_specificity,HB,Tim to Calculate,0,1,4,0,5,2.8
+34,White_Seabass,sensitivity,prey_specificity,HB,Tim to Calculate,2,3,0,0,5,1.6
+34,White_Seabass,sensitivity,adult_mobility,HB,Tim to Calculate,2,3,0,0,5,1.6
+34,White_Seabass,sensitivity,dispersal_of_early_life_stages,HB,Tim to Calculate,0,2,3,0,5,2.6
+34,White_Seabass,sensitivity,early_life_history_survival_and_settlement,HB,Tim to Calculate,1,3,2,0,6,2.6
+34,White_Seabass,sensitivity,complexity_in_reproductive_strategy,HB,Tim to Calculate,2,2,1,0,5,1.8
+34,White_Seabass,sensitivity,spawing_cycle,HB,Tim to Calculate,2,2,1,0,5,1.8
+34,White_Seabass,sensitivity,sensitivity_to_temperature,HB,Tim to Calculate,0,3,2,0,5,2.4
+34,White_Seabass,sensitivity,sensitivity_to_OA,HB,Tim to Calculate,5,0,0,0,5,1
+34,White_Seabass,sensitivity,population_growth_rate,HB,Tim to Calculate,0,2,2,1,5,2.8
+34,White_Seabass,sensitivity,stock_size_or_status,HB,Tim to Calculate,1,4,0,0,5,1.8
+34,White_Seabass,sensitivity,other_stressors,HB,Tim to Calculate,1,4,0,0,5,1.8
+34,White_Seabass,exposure_Near,mean_SST,HB,Tim to Calculate,0,2,3,0,5,2.6
+34,White_Seabass,exposure_Near,mean_salinity,HB,Tim to Calculate,1,4,0,0,5,1.8
+34,White_Seabass,exposure_Near,mean_pH,HB,Tim to Calculate,1,3,1,0,5,2
+34,White_Seabass,exposure_Near,mean_air_temp,HB,Tim to Calculate,4,1,0,0,5,1.2
+34,White_Seabass,exposure_Near,mean_percipitation,HB,Tim to Calculate,1,3,1,0,5,2
+34,White_Seabass,exposure_Near,sea_level_rise,HB,Tim to Calculate,1,2,2,0,5,2.2
+34,White_Seabass,exposure_Near,phenology_upwelling,HB,Tim to Calculate,3,2,0,0,5,1.4
+34,White_Seabass,exposure_Near,subsurface_oxygen,HB,Tim to Calculate,3,2,0,0,5,1.4
+34,White_Seabass,exposure_Far,mean_SST,HB,Tim to Calculate,0,0,3,2,5,3.4
+34,White_Seabass,exposure_Far,mean_salinity,HB,Tim to Calculate,0,4,1,0,5,2.2
+34,White_Seabass,exposure_Far,mean_pH,HB,Tim to Calculate,0,2,2,1,5,2.8
+34,White_Seabass,exposure_Far,mean_air_temp,HB,Tim to Calculate,1,3,1,0,5,2
+34,White_Seabass,exposure_Far,mean_percipitation,HB,Tim to Calculate,0,2,3,0,5,2.6
+34,White_Seabass,exposure_Far,sea_level_rise,HB,Tim to Calculate,0,2,2,1,5,2.8
+34,White_Seabass,exposure_Far,phenology_upwelling,HB,Tim to Calculate,2,3,0,0,5,1.6
+34,White_Seabass,exposure_Far,subsurface_oxygen,HB,Tim to Calculate,1,2,2,0,5,2.2
+18,Pacific_Bonito,sensitivity,habitat_specificity,HB,Tim to Calculate,3,2,0,0,5,1.4
+18,Pacific_Bonito,sensitivity,prey_specificity,HB,Tim to Calculate,3,2,0,0,5,1.4
+18,Pacific_Bonito,sensitivity,adult_mobility,HB,Tim to Calculate,3,2,0,0,5,1.4
+18,Pacific_Bonito,sensitivity,dispersal_of_early_life_stages,HB,Tim to Calculate,2,3,0,0,5,1.6
+18,Pacific_Bonito,sensitivity,early_life_history_survival_and_settlement,HB,Tim to Calculate,2,3,0,0,5,1.6
+18,Pacific_Bonito,sensitivity,complexity_in_reproductive_strategy,HB,Tim to Calculate,3,2,0,0,5,1.4
+18,Pacific_Bonito,sensitivity,spawing_cycle,HB,Tim to Calculate,1,3,1,0,5,2
+18,Pacific_Bonito,sensitivity,sensitivity_to_temperature,HB,Tim to Calculate,4,1,0,0,5,1.2
+18,Pacific_Bonito,sensitivity,sensitivity_to_OA,HB,Tim to Calculate,4,1,0,0,5,1.2
+18,Pacific_Bonito,sensitivity,population_growth_rate,HB,Tim to Calculate,4,1,0,0,5,1.2
+18,Pacific_Bonito,sensitivity,stock_size_or_status,HB,Tim to Calculate,4,1,0,0,5,1.2
+18,Pacific_Bonito,sensitivity,other_stressors,HB,Tim to Calculate,2,3,0,0,5,1.6
+18,Pacific_Bonito,exposure_Near,mean_SST,HB,Tim to Calculate,1,3,1,0,5,2
+18,Pacific_Bonito,exposure_Near,mean_salinity,HB,Tim to Calculate,4,1,0,0,5,1.2
+18,Pacific_Bonito,exposure_Near,mean_pH,HB,Tim to Calculate,3,2,0,0,5,1.4
+18,Pacific_Bonito,exposure_Near,mean_air_temp,HB,Tim to Calculate,4,1,0,0,5,1.2
+18,Pacific_Bonito,exposure_Near,mean_percipitation,HB,Tim to Calculate,4,1,0,0,5,1.2
+18,Pacific_Bonito,exposure_Near,sea_level_rise,HB,Tim to Calculate,1,3,1,0,5,2
+18,Pacific_Bonito,exposure_Near,phenology_upwelling,HB,Tim to Calculate,2,2,1,0,5,1.8
+18,Pacific_Bonito,exposure_Near,subsurface_oxygen,HB,Tim to Calculate,1,2,2,0,5,2.2
+18,Pacific_Bonito,exposure_Far,mean_SST,HB,Tim to Calculate,0,2,2,1,5,2.8
+18,Pacific_Bonito,exposure_Far,mean_salinity,HB,Tim to Calculate,1,2,2,0,5,2.2
+18,Pacific_Bonito,exposure_Far,mean_pH,HB,Tim to Calculate,1,3,1,0,5,2
+18,Pacific_Bonito,exposure_Far,mean_air_temp,HB,Tim to Calculate,3,2,0,0,5,1.4
+18,Pacific_Bonito,exposure_Far,mean_percipitation,HB,Tim to Calculate,3,2,0,0,5,1.4
+18,Pacific_Bonito,exposure_Far,sea_level_rise,HB,Tim to Calculate,0,3,2,0,5,2.4
+18,Pacific_Bonito,exposure_Far,phenology_upwelling,HB,Tim to Calculate,0,3,2,0,5,2.4
+18,Pacific_Bonito,exposure_Far,subsurface_oxygen,HB,Tim to Calculate,0,2,2,1,5,2.8
+23,Red_Abalone,sensitivity,habitat_specificity,HB,Tim to Calculate,0,1,3,1,5,3
+23,Red_Abalone,sensitivity,prey_specificity,HB,Tim to Calculate,0,0,3,2,5,3.4
+23,Red_Abalone,sensitivity,adult_mobility,HB,Tim to Calculate,0,0,1,4,5,3.8
+23,Red_Abalone,sensitivity,dispersal_of_early_life_stages,HB,Tim to Calculate,0,0,4,1,5,3.2
+23,Red_Abalone,sensitivity,early_life_history_survival_and_settlement,HB,Tim to Calculate,0,0,3,2,5,3.4
+23,Red_Abalone,sensitivity,complexity_in_reproductive_strategy,HB,Tim to Calculate,0,1,2,1,4,2.4
+23,Red_Abalone,sensitivity,spawing_cycle,HB,Tim to Calculate,2,1,1,0,4,1.4
+23,Red_Abalone,sensitivity,sensitivity_to_temperature,HB,Tim to Calculate,0,0,0,4,4,3.2
+23,Red_Abalone,sensitivity,sensitivity_to_OA,HB,Tim to Calculate,0,0,0,5,5,4
+23,Red_Abalone,sensitivity,population_growth_rate,HB,Tim to Calculate,0,0,0,5,5,4
+23,Red_Abalone,sensitivity,stock_size_or_status,HB,Tim to Calculate,0,0,0,5,5,4
+23,Red_Abalone,sensitivity,other_stressors,HB,Tim to Calculate,0,0,0,5,5,4
+23,Red_Abalone,exposure_Near,mean_SST,HB,Tim to Calculate,0,0,3,2,5,3.4
+23,Red_Abalone,exposure_Near,mean_salinity,HB,Tim to Calculate,2,2,1,0,5,1.8
+23,Red_Abalone,exposure_Near,mean_pH,HB,Tim to Calculate,0,0,3,2,5,3.4
+23,Red_Abalone,exposure_Near,mean_air_temp,HB,Tim to Calculate,0,1,3,1,5,3
+23,Red_Abalone,exposure_Near,mean_percipitation,HB,Tim to Calculate,1,3,1,0,5,2
+23,Red_Abalone,exposure_Near,sea_level_rise,HB,Tim to Calculate,0,1,3,1,5,3
+23,Red_Abalone,exposure_Near,phenology_upwelling,HB,Tim to Calculate,3,2,0,0,5,1.4
+23,Red_Abalone,exposure_Near,subsurface_oxygen,HB,Tim to Calculate,3,1,1,0,5,1.6
+23,Red_Abalone,exposure_Far,mean_SST,HB,Tim to Calculate,0,0,0,5,5,4
+23,Red_Abalone,exposure_Far,mean_salinity,HB,Tim to Calculate,0,3,2,0,5,2.4
+23,Red_Abalone,exposure_Far,mean_pH,HB,Tim to Calculate,0,0,0,5,5,4
+23,Red_Abalone,exposure_Far,mean_air_temp,HB,Tim to Calculate,0,0,3,2,5,3.4
+23,Red_Abalone,exposure_Far,mean_percipitation,HB,Tim to Calculate,0,2,3,0,5,2.6
+23,Red_Abalone,exposure_Far,sea_level_rise,HB,Tim to Calculate,0,0,3,2,5,3.4
+23,Red_Abalone,exposure_Far,phenology_upwelling,HB,Tim to Calculate,2,3,0,0,5,1.6
+23,Red_Abalone,exposure_Far,subsurface_oxygen,HB,Tim to Calculate,1,2,2,0,5,2.2
+4,CA_Sheephead,sensitivity,habitat_specificity,HB,Tim to Calculate,0,0,2,3,5,3.6
+4,CA_Sheephead,sensitivity,prey_specificity,HB,Tim to Calculate,4,1,0,0,5,1.2
+4,CA_Sheephead,sensitivity,adult_mobility,HB,Tim to Calculate,0,0,5,0,5,3
+4,CA_Sheephead,sensitivity,dispersal_of_early_life_stages,HB,Tim to Calculate,0,1,3,1,5,3
+4,CA_Sheephead,sensitivity,early_life_history_survival_and_settlement,HB,Tim to Calculate,0,1,3,1,5,3
+4,CA_Sheephead,sensitivity,complexity_in_reproductive_strategy,HB,Tim to Calculate,0,5,0,0,5,2
+4,CA_Sheephead,sensitivity,spawing_cycle,HB,Tim to Calculate,0,0,5,0,5,3
+4,CA_Sheephead,sensitivity,sensitivity_to_temperature,HB,Tim to Calculate,1,3,1,0,5,2
+4,CA_Sheephead,sensitivity,sensitivity_to_OA,HB,Tim to Calculate,0,1,4,0,5,2.8
+4,CA_Sheephead,sensitivity,population_growth_rate,HB,Tim to Calculate,0,1,3,1,5,3
+4,CA_Sheephead,sensitivity,stock_size_or_status,HB,Tim to Calculate,0,2,3,0,5,2.6
+4,CA_Sheephead,sensitivity,other_stressors,HB,Tim to Calculate,0,0,4,1,5,3.2
+4,CA_Sheephead,exposure_Near,mean_SST,HB,Tim to Calculate,0,2,3,0,5,2.6
+4,CA_Sheephead,exposure_Near,mean_salinity,HB,Tim to Calculate,3,2,0,0,5,1.4
+4,CA_Sheephead,exposure_Near,mean_pH,HB,Tim to Calculate,1,1,3,0,5,2.4
+4,CA_Sheephead,exposure_Near,mean_air_temp,HB,Tim to Calculate,4,1,0,0,5,1.2
+4,CA_Sheephead,exposure_Near,mean_percipitation,HB,Tim to Calculate,1,3,1,0,5,2
+4,CA_Sheephead,exposure_Near,sea_level_rise,HB,Tim to Calculate,2,2,1,0,5,1.8
+4,CA_Sheephead,exposure_Near,phenology_upwelling,HB,Tim to Calculate,3,2,0,0,5,1.4
+4,CA_Sheephead,exposure_Near,subsurface_oxygen,HB,Tim to Calculate,2,2,1,0,5,1.8
+4,CA_Sheephead,exposure_Far,mean_SST,HB,Tim to Calculate,0,0,2,3,5,3.6
+4,CA_Sheephead,exposure_Far,mean_salinity,HB,Tim to Calculate,0,4,1,0,5,2.2
+4,CA_Sheephead,exposure_Far,mean_pH,HB,Tim to Calculate,0,1,2,2,5,3.2
+4,CA_Sheephead,exposure_Far,mean_air_temp,HB,Tim to Calculate,2,3,0,0,5,1.6
+4,CA_Sheephead,exposure_Far,mean_percipitation,HB,Tim to Calculate,0,2,3,0,5,2.6
+4,CA_Sheephead,exposure_Far,sea_level_rise,HB,Tim to Calculate,1,2,1,1,5,2.4
+4,CA_Sheephead,exposure_Far,phenology_upwelling,HB,Tim to Calculate,2,3,0,0,5,1.6
+4,CA_Sheephead,exposure_Far,subsurface_oxygen,HB,Tim to Calculate,1,2,2,0,5,2.2
+32,Warty_Sea_Cucumber,sensitivity,habitat_specificity,HB,Tim to Calculate,0,,4,1,5,3.2
+32,Warty_Sea_Cucumber,sensitivity,prey_specificity,HB,Tim to Calculate,0,2,3,0,5,2.6
+32,Warty_Sea_Cucumber,sensitivity,adult_mobility,HB,Tim to Calculate,0,1,4,0,5,2.8
+32,Warty_Sea_Cucumber,sensitivity,dispersal_of_early_life_stages,HB,Tim to Calculate,0,4,1,0,5,2.2
+32,Warty_Sea_Cucumber,sensitivity,early_life_history_survival_and_settlement,HB,Tim to Calculate,0,1,3,1,5,3
+32,Warty_Sea_Cucumber,sensitivity,complexity_in_reproductive_strategy,HB,Tim to Calculate,0,0,4,1,5,3.2
+32,Warty_Sea_Cucumber,sensitivity,spawing_cycle,HB,Tim to Calculate,0,0,3,2,5,3.4
+32,Warty_Sea_Cucumber,sensitivity,sensitivity_to_temperature,HB,Tim to Calculate,0,0,3,2,5,3.4
+32,Warty_Sea_Cucumber,sensitivity,sensitivity_to_OA,HB,Tim to Calculate,5,0,0,0,5,1
+32,Warty_Sea_Cucumber,sensitivity,population_growth_rate,HB,Tim to Calculate,0,2,3,0,5,2.6
+32,Warty_Sea_Cucumber,sensitivity,stock_size_or_status,HB,Tim to Calculate,0,0,3,2,5,3.4
+32,Warty_Sea_Cucumber,sensitivity,other_stressors,HB,Tim to Calculate,2,3,0,0,5,1.6
+32,Warty_Sea_Cucumber,exposure_Near,mean_SST,HB,Tim to Calculate,0,4,1,0,5,2.2
+32,Warty_Sea_Cucumber,exposure_Near,mean_salinity,HB,Tim to Calculate,2,3,0,0,5,1.6
+32,Warty_Sea_Cucumber,exposure_Near,mean_pH,HB,Tim to Calculate,2,3,0,0,5,1.6
+32,Warty_Sea_Cucumber,exposure_Near,mean_air_temp,HB,Tim to Calculate,4,1,0,0,5,1.2
+32,Warty_Sea_Cucumber,exposure_Near,mean_percipitation,HB,Tim to Calculate,4,1,0,0,5,1.2
+32,Warty_Sea_Cucumber,exposure_Near,sea_level_rise,HB,Tim to Calculate,3,1,1,0,5,1.6
+32,Warty_Sea_Cucumber,exposure_Near,phenology_upwelling,HB,Tim to Calculate,2,2,1,0,5,1.8
+32,Warty_Sea_Cucumber,exposure_Near,subsurface_oxygen,HB,Tim to Calculate,3,2,0,0,5,1.4
+32,Warty_Sea_Cucumber,exposure_Far,mean_SST,HB,Tim to Calculate,0,1,3,1,5,3
+32,Warty_Sea_Cucumber,exposure_Far,mean_salinity,HB,Tim to Calculate,1,3,1,0,5,2
+32,Warty_Sea_Cucumber,exposure_Far,mean_pH,HB,Tim to Calculate,0,0,3,2,5,3.4
+32,Warty_Sea_Cucumber,exposure_Far,mean_air_temp,HB,Tim to Calculate,3,2,0,0,5,1.4
+32,Warty_Sea_Cucumber,exposure_Far,mean_percipitation,HB,Tim to Calculate,3,2,0,0,5,1.4
+32,Warty_Sea_Cucumber,exposure_Far,sea_level_rise,HB,Tim to Calculate,2,2,1,0,5,1.8
+32,Warty_Sea_Cucumber,exposure_Far,phenology_upwelling,HB,Tim to Calculate,1,2,2,0,5,2.2
+32,Warty_Sea_Cucumber,exposure_Far,subsurface_oxygen,HB,Tim to Calculate,1,2,2,0,5,2.2
+24,Red_Sea_Urchin,sensitivity,habitat_specificity,NB,Tim to Calculate,0,3,2,0,5,2.4
+24,Red_Sea_Urchin,sensitivity,prey_specificity,NB,Tim to Calculate,1,3,1,0,5,2
+24,Red_Sea_Urchin,sensitivity,adult_mobility,NB,Tim to Calculate,0,1,4,0,5,2.8
+24,Red_Sea_Urchin,sensitivity,dispersal_of_early_life_stages,NB,Tim to Calculate,3,2,0,0,5,1.4
+24,Red_Sea_Urchin,sensitivity,early_life_history_survival_and_settlement,NB,Tim to Calculate,0,1,3,1,5,3
+24,Red_Sea_Urchin,sensitivity,complexity_in_reproductive_strategy,NB,Tim to Calculate,1,3,1,0,5,2
+24,Red_Sea_Urchin,sensitivity,spawing_cycle,NB,Tim to Calculate,0,3,2,0,5,2.4
+24,Red_Sea_Urchin,sensitivity,sensitivity_to_temperature,NB,Tim to Calculate,0,3,2,0,5,2.4
+24,Red_Sea_Urchin,sensitivity,sensitivity_to_OA,NB,Tim to Calculate,0,0,2,3,5,3.6
+24,Red_Sea_Urchin,sensitivity,population_growth_rate,NB,Tim to Calculate,1,2,2,0,5,2.2
+24,Red_Sea_Urchin,sensitivity,stock_size_or_status,NB,Tim to Calculate,1,2,1,1,5,2.4
+24,Red_Sea_Urchin,sensitivity,other_stressors,NB,Tim to Calculate,0,2,2,1,5,2.8
+24,Red_Sea_Urchin,exposure_Near,mean_SST,NB,Tim to Calculate,1,3,1,0,5,2
+24,Red_Sea_Urchin,exposure_Near,mean_salinity,NB,Tim to Calculate,3,2,0,0,5,1.4
+24,Red_Sea_Urchin,exposure_Near,mean_pH,NB,Tim to Calculate,0,2,2,1,5,2.8
+24,Red_Sea_Urchin,exposure_Near,mean_air_temp,NB,Tim to Calculate,4,1,0,0,5,1.2
+24,Red_Sea_Urchin,exposure_Near,mean_percipitation,NB,Tim to Calculate,4,1,0,0,5,1.2
+24,Red_Sea_Urchin,exposure_Near,sea_level_rise,NB,Tim to Calculate,3,2,0,0,5,1.4
+24,Red_Sea_Urchin,exposure_Near,phenology_upwelling,NB,Tim to Calculate,1,3,1,0,5,2
+24,Red_Sea_Urchin,exposure_Near,subsurface_oxygen,NB,Tim to Calculate,4,1,0,0,5,1.2
+24,Red_Sea_Urchin,exposure_Far,mean_SST,NB,Tim to Calculate,0,3,2,0,5,2.4
+24,Red_Sea_Urchin,exposure_Far,mean_salinity,NB,Tim to Calculate,2,3,0,0,5,1.6
+24,Red_Sea_Urchin,exposure_Far,mean_pH,NB,Tim to Calculate,0,0,3,2,5,3.4
+24,Red_Sea_Urchin,exposure_Far,mean_air_temp,NB,Tim to Calculate,2,3,0,0,5,1.6
+24,Red_Sea_Urchin,exposure_Far,mean_percipitation,NB,Tim to Calculate,3,1,1,0,5,1.6
+24,Red_Sea_Urchin,exposure_Far,sea_level_rise,NB,Tim to Calculate,2,3,0,0,5,1.6
+24,Red_Sea_Urchin,exposure_Far,phenology_upwelling,NB,Tim to Calculate,0,3,2,0,5,2.4
+24,Red_Sea_Urchin,exposure_Far,subsurface_oxygen,NB,Tim to Calculate,2,2,1,0,5,1.8
+34,White_Seabass,sensitivity,habitat_specificity,NB,Tim to Calculate,0,3,2,0,5,2.4
+34,White_Seabass,sensitivity,prey_specificity,NB,Tim to Calculate,2,2,1,0,5,1.8
+34,White_Seabass,sensitivity,adult_mobility,NB,Tim to Calculate,3,2,0,0,5,1.4
+34,White_Seabass,sensitivity,dispersal_of_early_life_stages,NB,Tim to Calculate,0,4,1,0,5,2.2
+34,White_Seabass,sensitivity,early_life_history_survival_and_settlement,NB,Tim to Calculate,0,0,4,1,5,3.2
+34,White_Seabass,sensitivity,complexity_in_reproductive_strategy,NB,Tim to Calculate,1,4,0,0,5,1.8
+34,White_Seabass,sensitivity,spawing_cycle,NB,Tim to Calculate,0,2,3,0,5,2.6
+34,White_Seabass,sensitivity,sensitivity_to_temperature,NB,Tim to Calculate,0,4,1,0,5,2.2
+34,White_Seabass,sensitivity,sensitivity_to_OA,NB,Tim to Calculate,1,3,1,0,5,2
+34,White_Seabass,sensitivity,population_growth_rate,NB,Tim to Calculate,0,3,2,0,5,2.4
+34,White_Seabass,sensitivity,stock_size_or_status,NB,Tim to Calculate,1,3,1,0,5,2
+34,White_Seabass,sensitivity,other_stressors,NB,Tim to Calculate,1,3,1,0,5,2
+34,White_Seabass,exposure_Near,mean_SST,NB,Tim to Calculate,3,2,0,0,5,1.4
+34,White_Seabass,exposure_Near,mean_salinity,NB,Tim to Calculate,5,0,0,0,5,1
+34,White_Seabass,exposure_Near,mean_pH,NB,Tim to Calculate,4,1,0,0,5,1.2
+34,White_Seabass,exposure_Near,mean_air_temp,NB,Tim to Calculate,3,2,0,0,5,1.4
+34,White_Seabass,exposure_Near,mean_percipitation,NB,Tim to Calculate,2,3,0,0,5,1.6
+34,White_Seabass,exposure_Near,sea_level_rise,NB,Tim to Calculate,2,3,0,0,5,1.6
+34,White_Seabass,exposure_Near,phenology_upwelling,NB,Tim to Calculate,5,0,0,0,5,1
+34,White_Seabass,exposure_Near,subsurface_oxygen,NB,Tim to Calculate,4,1,0,0,5,1.2
+34,White_Seabass,exposure_Far,mean_SST,NB,Tim to Calculate,0,1,3,1,5,3
+34,White_Seabass,exposure_Far,mean_salinity,NB,Tim to Calculate,2,3,0,0,5,1.6
+34,White_Seabass,exposure_Far,mean_pH,NB,Tim to Calculate,0,1,3,1,5,3
+34,White_Seabass,exposure_Far,mean_air_temp,NB,Tim to Calculate,1,3,1,0,5,2
+34,White_Seabass,exposure_Far,mean_percipitation,NB,Tim to Calculate,2,3,0,0,5,1.6
+34,White_Seabass,exposure_Far,sea_level_rise,NB,Tim to Calculate,1,3,1,0,5,2
+34,White_Seabass,exposure_Far,phenology_upwelling,NB,Tim to Calculate,0,4,1,0,5,2.2
+34,White_Seabass,exposure_Far,subsurface_oxygen,NB,Tim to Calculate,0,1,3,1,5,3
+18,Pacific_Bonito,sensitivity,habitat_specificity,NB,Tim to Calculate,4,1,0,0,5,1.2
+18,Pacific_Bonito,sensitivity,prey_specificity,NB,Tim to Calculate,3,2,0,0,5,1.4
+18,Pacific_Bonito,sensitivity,adult_mobility,NB,Tim to Calculate,5,0,0,0,5,1
+18,Pacific_Bonito,sensitivity,dispersal_of_early_life_stages,NB,Tim to Calculate,0,2,3,0,5,2.6
+18,Pacific_Bonito,sensitivity,early_life_history_survival_and_settlement,NB,Tim to Calculate,2,1,2,0,5,2
+18,Pacific_Bonito,sensitivity,complexity_in_reproductive_strategy,NB,Tim to Calculate,1,4,0,0,5,1.8
+18,Pacific_Bonito,sensitivity,spawing_cycle,NB,Tim to Calculate,0,1,4,0,5,2.8
+18,Pacific_Bonito,sensitivity,sensitivity_to_temperature,NB,Tim to Calculate,2,3,0,0,5,1.6
+18,Pacific_Bonito,sensitivity,sensitivity_to_OA,NB,Tim to Calculate,3,2,0,0,5,1.4
+18,Pacific_Bonito,sensitivity,population_growth_rate,NB,Tim to Calculate,1,3,1,0,5,2
+18,Pacific_Bonito,sensitivity,stock_size_or_status,NB,Tim to Calculate,1,3,1,0,5,2
+18,Pacific_Bonito,sensitivity,other_stressors,NB,Tim to Calculate,3,2,0,0,5,1.4
+18,Pacific_Bonito,exposure_Near,mean_SST,NB,Tim to Calculate,1,2,2,0,5,2.2
+18,Pacific_Bonito,exposure_Near,mean_salinity,NB,Tim to Calculate,3,2,0,0,5,1.4
+18,Pacific_Bonito,exposure_Near,mean_pH,NB,Tim to Calculate,3,2,0,0,5,1.4
+18,Pacific_Bonito,exposure_Near,mean_air_temp,NB,Tim to Calculate,4,1,0,0,5,1.2
+18,Pacific_Bonito,exposure_Near,mean_percipitation,NB,Tim to Calculate,5,0,0,0,5,1
+18,Pacific_Bonito,exposure_Near,sea_level_rise,NB,Tim to Calculate,5,0,0,0,5,1
+18,Pacific_Bonito,exposure_Near,phenology_upwelling,NB,Tim to Calculate,1,2,2,0,5,2.2
+18,Pacific_Bonito,exposure_Near,subsurface_oxygen,NB,Tim to Calculate,3,2,0,0,5,1.4
+18,Pacific_Bonito,exposure_Far,mean_SST,NB,Tim to Calculate,0,2,2,1,5,2.8
+18,Pacific_Bonito,exposure_Far,mean_salinity,NB,Tim to Calculate,2,3,0,0,5,1.6
+18,Pacific_Bonito,exposure_Far,mean_pH,NB,Tim to Calculate,2,3,0,0,5,1.6
+18,Pacific_Bonito,exposure_Far,mean_air_temp,NB,Tim to Calculate,4,1,0,0,5,1.2
+18,Pacific_Bonito,exposure_Far,mean_percipitation,NB,Tim to Calculate,4,1,0,0,5,1.2
+18,Pacific_Bonito,exposure_Far,sea_level_rise,NB,Tim to Calculate,5,0,0,0,5,1
+18,Pacific_Bonito,exposure_Far,phenology_upwelling,NB,Tim to Calculate,0,3,2,0,5,2.4
+18,Pacific_Bonito,exposure_Far,subsurface_oxygen,NB,Tim to Calculate,2,3,0,0,5,1.6
+23,Red_Abalone,sensitivity,habitat_specificity,NB,Tim to Calculate,4,1,0,0,5,1.2
+23,Red_Abalone,sensitivity,prey_specificity,NB,Tim to Calculate,4,1,0,0,5,1.2
+23,Red_Abalone,sensitivity,adult_mobility,NB,Tim to Calculate,0,0,5,0,5,3
+23,Red_Abalone,sensitivity,dispersal_of_early_life_stages,NB,Tim to Calculate,0,0,4,1,5,3.2
+23,Red_Abalone,sensitivity,early_life_history_survival_and_settlement,NB,Tim to Calculate,0,0,1,4,5,3.8
+23,Red_Abalone,sensitivity,complexity_in_reproductive_strategy,NB,Tim to Calculate,0,0,3,2,5,3.4
+23,Red_Abalone,sensitivity,spawing_cycle,NB,Tim to Calculate,3,2,0,0,5,1.4
+23,Red_Abalone,sensitivity,sensitivity_to_temperature,NB,Tim to Calculate,0,1,2,2,5,3.2
+23,Red_Abalone,sensitivity,sensitivity_to_OA,NB,Tim to Calculate,0,0,3,2,5,3.4
+23,Red_Abalone,sensitivity,population_growth_rate,NB,Tim to Calculate,0,0,3,2,5,3.4
+23,Red_Abalone,sensitivity,stock_size_or_status,NB,Tim to Calculate,0,1,2,2,5,3.2
+23,Red_Abalone,sensitivity,other_stressors,NB,Tim to Calculate,0,0,2,3,5,3.6
+23,Red_Abalone,exposure_Near,mean_SST,NB,Tim to Calculate,0,2,2,1,5,2.8
+23,Red_Abalone,exposure_Near,mean_salinity,NB,Tim to Calculate,1,2,2,0,5,2.2
+23,Red_Abalone,exposure_Near,mean_pH,NB,Tim to Calculate,0,1,2,2,5,3.2
+23,Red_Abalone,exposure_Near,mean_air_temp,NB,Tim to Calculate,1,2,2,0,5,2.2
+23,Red_Abalone,exposure_Near,mean_percipitation,NB,Tim to Calculate,1,3,1,0,5,2
+23,Red_Abalone,exposure_Near,sea_level_rise,NB,Tim to Calculate,2,3,0,0,5,1.6
+23,Red_Abalone,exposure_Near,phenology_upwelling,NB,Tim to Calculate,0,2,2,1,5,2.8
+23,Red_Abalone,exposure_Near,subsurface_oxygen,NB,Tim to Calculate,0,3,2,0,5,2.4
+23,Red_Abalone,exposure_Far,mean_SST,NB,Tim to Calculate,0,1,2,2,5,3.2
+23,Red_Abalone,exposure_Far,mean_salinity,NB,Tim to Calculate,0,3,2,0,5,2.4
+23,Red_Abalone,exposure_Far,mean_pH,NB,Tim to Calculate,0,0,3,2,5,3.4
+23,Red_Abalone,exposure_Far,mean_air_temp,NB,Tim to Calculate,0,3,2,0,5,2.4
+23,Red_Abalone,exposure_Far,mean_percipitation,NB,Tim to Calculate,0,3,2,0,5,2.4
+23,Red_Abalone,exposure_Far,sea_level_rise,NB,Tim to Calculate,2,3,0,0,5,1.6
+23,Red_Abalone,exposure_Far,phenology_upwelling,NB,Tim to Calculate,0,0,3,2,5,3.4
+23,Red_Abalone,exposure_Far,subsurface_oxygen,NB,Tim to Calculate,0,2,3,0,5,2.6
+,,,,,,,,,,,
+20,Pacific_Hagfish,sensitivity,habitat_specificity,NB,Tim to Calculate,4,1,0,0,5,1.2
+20,Pacific_Hagfish,sensitivity,prey_specificity,NB,Tim to Calculate,2,3,0,0,5,1.6
+20,Pacific_Hagfish,sensitivity,adult_mobility,NB,Tim to Calculate,0,1,4,0,5,2.8
+20,Pacific_Hagfish,sensitivity,dispersal_of_early_life_stages,NB,Tim to Calculate,0,3,2,0,5,2.4
+20,Pacific_Hagfish,sensitivity,early_life_history_survival_and_settlement,NB,Tim to Calculate,3,2,0,0,5,1.4
+20,Pacific_Hagfish,sensitivity,complexity_in_reproductive_strategy,NB,Tim to Calculate,4,1,0,0,5,1.2
+20,Pacific_Hagfish,sensitivity,spawing_cycle,NB,Tim to Calculate,4,1,0,0,5,1.2
+20,Pacific_Hagfish,sensitivity,sensitivity_to_temperature,NB,Tim to Calculate,3,2,0,0,5,1.4
+20,Pacific_Hagfish,sensitivity,sensitivity_to_OA,NB,Tim to Calculate,3,2,0,0,5,1.4
+20,Pacific_Hagfish,sensitivity,population_growth_rate,NB,Tim to Calculate,1,2,2,0,5,2.2
+20,Pacific_Hagfish,sensitivity,stock_size_or_status,NB,Tim to Calculate,3,2,0,0,5,1.4
+20,Pacific_Hagfish,sensitivity,other_stressors,NB,Tim to Calculate,3,2,0,0,5,1.4
+20,Pacific_Hagfish,exposure_Near,mean_SST,NB,Tim to Calculate,4,1,0,0,5,1.2
+20,Pacific_Hagfish,exposure_Near,mean_salinity,NB,Tim to Calculate,4,1,0,0,5,1.2
+20,Pacific_Hagfish,exposure_Near,mean_pH,NB,Tim to Calculate,5,0,0,0,5,1
+20,Pacific_Hagfish,exposure_Near,mean_air_temp,NB,Tim to Calculate,5,0,0,0,5,1
+20,Pacific_Hagfish,exposure_Near,mean_percipitation,NB,Tim to Calculate,4,1,0,0,5,1.2
+20,Pacific_Hagfish,exposure_Near,sea_level_rise,NB,Tim to Calculate,5,0,0,0,5,1
+20,Pacific_Hagfish,exposure_Near,phenology_upwelling,NB,Tim to Calculate,3,2,0,0,5,1.4
+20,Pacific_Hagfish,exposure_Near,subsurface_oxygen,NB,Tim to Calculate,4,1,0,0,5,1.2
+20,Pacific_Hagfish,exposure_Far,mean_SST,NB,Tim to Calculate,3,2,0,0,5,1.4
+20,Pacific_Hagfish,exposure_Far,mean_salinity,NB,Tim to Calculate,2,2,1,0,5,1.8
+20,Pacific_Hagfish,exposure_Far,mean_pH,NB,Tim to Calculate,4,1,0,0,5,1.2
+20,Pacific_Hagfish,exposure_Far,mean_air_temp,NB,Tim to Calculate,5,0,0,0,5,1
+20,Pacific_Hagfish,exposure_Far,mean_percipitation,NB,Tim to Calculate,4,1,0,0,5,1.2
+20,Pacific_Hagfish,exposure_Far,sea_level_rise,NB,Tim to Calculate,5,0,0,0,5,1
+20,Pacific_Hagfish,exposure_Far,phenology_upwelling,NB,Tim to Calculate,2,2,1,0,5,1.8
+20,Pacific_Hagfish,exposure_Far,subsurface_oxygen,NB,Tim to Calculate,4,1,0,0,5,1.2
+30,Spot_Prawn,sensitivity,habitat_specificity,NB,Tim to Calculate,0,2,3,0,5,2.6
+30,Spot_Prawn,sensitivity,prey_specificity,NB,Tim to Calculate,5,0,0,0,5,1
+30,Spot_Prawn,sensitivity,adult_mobility,NB,Tim to Calculate,0,1,4,0,5,2.8
+30,Spot_Prawn,sensitivity,dispersal_of_early_life_stages,NB,Tim to Calculate,0,1,3,1,5,3
+30,Spot_Prawn,sensitivity,early_life_history_survival_and_settlement,NB,Tim to Calculate,1,2,2,0,5,2.2
+30,Spot_Prawn,sensitivity,complexity_in_reproductive_strategy,NB,Tim to Calculate,2,2,1,0,5,1.8
+30,Spot_Prawn,sensitivity,spawing_cycle,NB,Tim to Calculate,0,0,2,3,5,3.6
+30,Spot_Prawn,sensitivity,sensitivity_to_temperature,NB,Tim to Calculate,0,3,2,0,5,2.4
+30,Spot_Prawn,sensitivity,sensitivity_to_OA,NB,Tim to Calculate,0,0,3,2,5,3.4
+30,Spot_Prawn,sensitivity,population_growth_rate,NB,Tim to Calculate,2,2,1,0,5,1.8
+30,Spot_Prawn,sensitivity,stock_size_or_status,NB,Tim to Calculate,3,2,0,0,5,1.4
+30,Spot_Prawn,sensitivity,other_stressors,NB,Tim to Calculate,2,3,0,0,5,1.6
+30,Spot_Prawn,exposure_Near,mean_SST,NB,Tim to Calculate,3,2,0,0,5,1.4
+30,Spot_Prawn,exposure_Near,mean_salinity,NB,Tim to Calculate,4,1,0,0,5,1.2
+30,Spot_Prawn,exposure_Near,mean_pH,NB,Tim to Calculate,0,4,1,0,5,2.2
+30,Spot_Prawn,exposure_Near,mean_air_temp,NB,Tim to Calculate,5,0,0,0,5,1
+30,Spot_Prawn,exposure_Near,mean_percipitation,NB,Tim to Calculate,5,0,0,0,5,1
+30,Spot_Prawn,exposure_Near,sea_level_rise,NB,Tim to Calculate,5,0,0,0,5,1
+30,Spot_Prawn,exposure_Near,phenology_upwelling,NB,Tim to Calculate,1,3,1,0,5,2
+30,Spot_Prawn,exposure_Near,subsurface_oxygen,NB,Tim to Calculate,2,2,1,0,5,1.8
+30,Spot_Prawn,exposure_Far,mean_SST,NB,Tim to Calculate,2,3,0,0,5,1.6
+30,Spot_Prawn,exposure_Far,mean_salinity,NB,Tim to Calculate,0,2,2,1,5,2.8
+30,Spot_Prawn,exposure_Far,mean_pH,NB,Tim to Calculate,0,3,2,0,5,2.4
+30,Spot_Prawn,exposure_Far,mean_air_temp,NB,Tim to Calculate,4,1,0,0,5,1.2
+30,Spot_Prawn,exposure_Far,mean_percipitation,NB,Tim to Calculate,5,0,0,0,5,1
+30,Spot_Prawn,exposure_Far,sea_level_rise,NB,Tim to Calculate,4,1,0,0,5,1.2
+30,Spot_Prawn,exposure_Far,phenology_upwelling,NB,Tim to Calculate,0,3,2,0,5,2.4
+30,Spot_Prawn,exposure_Far,subsurface_oxygen,NB,Tim to Calculate,0,2,2,1,5,2.8

@@ -1,0 +1,100 @@
+---
+title: "cinms_cva_score_viz"
+author: "Grace Kumaishi"
+date: "11/27/2023"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(janitor)
+library(here)
+library(ggplot2)
+```
+
+```{r}
+# Read in data:
+CVA_scores <- read_csv(here("data", "CVA_scores_tidy.csv"))
+avg_vs_gut <- read_csv(here("data", "avg_vs_gutcheck.csv"))
+```
+
+SENSITIVITY
+```{r}
+sensitivity <- CVA_scores %>% 
+  filter(component == "sensitivity") %>% 
+  select(habitat, species, component, average)
+```
+
+```{r}
+ggplot(sensitivity, aes(x = reorder(species, -average), y = average)) +
+  geom_point(aes(color = habitat)) +
+  theme(axis.text.x = element_text(angle = 90))
+```
+
+EXPOSURE
+```{r}
+exposure <- CVA_scores %>% 
+  filter(component == "exposure") %>% 
+  select(habitat, species, component, average)
+```
+
+```{r}
+ggplot(exposure, aes(x = reorder(species, -average), y = average)) +
+  geom_point(aes(color = habitat)) +
+  theme(axis.text.x = element_text(angle = 90))
+```
+
+ADAPTIVE CAPACITY
+```{r}
+ac <- CVA_scores %>% 
+  filter(component == "adaptive_capacity") %>% 
+  select(habitat, species, component, average)
+```
+
+```{r}
+ggplot(ac, aes(x = reorder(species, -average), y = average)) +
+  geom_point(aes(color = habitat)) +
+  theme(axis.text.x = element_text(angle = 90))
+```
+
+AVG VS. GUTCHECK
+```{r}
+avg_vs_gut_tidy <- avg_vs_gut %>% 
+  pivot_longer(cols = c("average", "gutcheck")) %>% 
+  select(-gut_minus_avg)
+```
+
+Sensitivity
+```{r}
+avg_vs_gut_sensitivity <- avg_vs_gut_tidy %>% 
+  filter(component == "sensitivity")
+
+ggplot(avg_vs_gut_sensitivity, aes(fill = name, y = value, x = species)) +
+  geom_bar(position = "dodge", stat = "identity") +
+  theme(axis.text.x = element_text(angle = 90))
+```
+
+Exposure
+```{r}
+avg_vs_gut_exposure <- avg_vs_gut_tidy %>% 
+  filter(component == "exposure")
+
+ggplot(avg_vs_gut_exposure, aes(fill = name, y = value, x = species)) +
+  geom_bar(position = "dodge", stat = "identity") +
+  theme(axis.text.x = element_text(angle = 90))
+```
+
+Adaptive Capacity
+```{r}
+avg_vs_gut_ac <- avg_vs_gut_tidy %>% 
+  filter(component == "adaptive_capacity")
+
+ggplot(avg_vs_gut_ac, aes(fill = name, y = value, x = species)) +
+  geom_bar(position = "dodge", stat = "identity") +
+  theme(axis.text.x = element_text(angle = 90))
+```
+
+
+
