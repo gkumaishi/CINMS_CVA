@@ -1,0 +1,59 @@
+---
+title: "Individual Variable Exploration"
+author: "Grace Kumaishi"
+date: "4/3/2024"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(janitor)
+library(here)
+library(ggplot2)
+```
+
+```{r}
+# Read in data:
+CVA_scores <- read_csv(here("data", "CVA_scores_tidy.csv"))
+```
+
+#### CLIMATE VARIABLES ONLY
+```{r}
+climate_variables <- CVA_scores %>% 
+  filter(component == "sensitivity") %>% 
+  select(1:18) %>% 
+  select(!habitat) %>% 
+  pivot_longer(3:17,
+               names_to = "variable",
+               values_to = "count") %>% 
+  pivot_wider(names_from = species, values_from = count) %>% 
+  replace(is.na(.), 0) %>% 
+  mutate(mod_and_above = rowSums(select(., -c(1:2)) >= 3))
+```
+
+```{r}
+ggplot(data = climate_variables, aes(x = mod_and_above, y = reorder(variable, mod_and_above))) +
+  geom_col()
+```
+
+
+#### INTRINSIC ADAPTIVE CAPACITY
+```{r}
+intrinsic_ac_variables <- CVA_scores %>% 
+  filter(component == "adaptive_capacity") %>% 
+    select(19:24)
+```
+
+### EXTRINSIC ADAPTIVE CAPACITY
+```{r}
+extrinsic_ac_variables <- CVA_scores %>% 
+  filter(component == "adaptive_capacity") %>% 
+    select(25:33)
+```
+
+
+
+
+
