@@ -98,27 +98,262 @@ ggplot(data = sensitivity_high_above, aes(x = high_and_above, y = reorder(variab
   geom_col(fill = "#00008B") +
   labs(y = "Climate Variable",
        x = "Count",
-       title = "Frequency of Individual Climate Sensitivity Variables \n (High and Very High)") +
+       title = "Count of Individual Climate Sensitivity Variables \n Scored 'High' and 'Very High' Across Habitats") +
+  theme_minimal() +
+  theme(plot.title = element_text(hjust = .5)) 
+```
+
+#### BY HABITAT
+
+## SANDY BEACH
+```{r}
+sandy_beach <- CVA_scores %>% 
+  filter(component == "sensitivity") %>% 
+  filter(habitat == "sandy_beach") %>% 
+  select(1:18) %>% 
+  select(!habitat) %>% 
+  pivot_longer(3:17,
+               names_to = "variable",
+               values_to = "count") %>% 
+  pivot_wider(names_from = species, values_from = count) %>% 
+  replace(is.na(.), 0) %>% 
+  mutate(high_and_above = rowSums(select(., -c(1:2)) > 3)) %>% 
+  mutate(variable = case_when(
+    variable == "air_temp" ~ "Air temperature",
+    variable == "sst" ~ "Sea surface temperature",
+    variable == "sub_surf_temp" ~ "Subsurface temperature",
+    variable == "water_temp" ~ "Water temperature",
+    variable == "salinity" ~ "Salinity",
+    variable == "do" ~ "Dissolved oxygen",
+    variable == "oa" ~ "Ocean acidification",
+    variable == "slr" ~ "Sea level rise",
+    variable == "wave_action" ~ "Wave action",
+    variable == "upwelling" ~ "Upwelling",
+    variable == "hab" ~ "Harmful algal blooms",
+    variable == "precip_o" ~ "Precipitation events",
+    variable == "dessication_o" ~ "Desiccation",
+    variable == "turbidity_o" ~ "Turbidity",
+    variable == "currents_o" ~ "Currents"
+  ))
+```
+
+```{r}
+ggplot(data = sandy_beach, aes(x = high_and_above, y = reorder(variable, high_and_above))) +
+  geom_col(fill = "#00008B") +
+  labs(y = "Climate Variable",
+       x = "Count",
+       title = "Sandy Beach: Frequency of Individual Climate Sensitivity Variables \n (High and Very High)") +
   theme_minimal() +
   theme(plot.title = element_text(hjust = .3)) 
 ```
 
-
-#### INTRINSIC ADAPTIVE CAPACITY
+## KELP FOREST
 ```{r}
-intrinsic_ac_variables <- CVA_scores %>% 
-  filter(component == "adaptive_capacity") %>% 
-    select(19:24)
+kelp_forest <- CVA_scores %>% 
+  filter(component == "sensitivity") %>% 
+  filter(habitat == "kelp_forest") %>% 
+  select(1:18) %>% 
+  select(!habitat) %>% 
+  pivot_longer(3:17,
+               names_to = "variable",
+               values_to = "count") %>% 
+  pivot_wider(names_from = species, values_from = count) %>% 
+  replace(is.na(.), 0) %>% 
+  mutate(high_and_above = rowSums(select(., -c(1:2)) > 3)) %>% 
+  mutate(variable = case_when(
+    variable == "air_temp" ~ "Air temperature",
+    variable == "sst" ~ "Sea surface temperature",
+    variable == "sub_surf_temp" ~ "Subsurface temperature",
+    variable == "water_temp" ~ "Water temperature",
+    variable == "salinity" ~ "Salinity",
+    variable == "do" ~ "Dissolved oxygen",
+    variable == "oa" ~ "Ocean acidification",
+    variable == "slr" ~ "Sea level rise",
+    variable == "wave_action" ~ "Wave action",
+    variable == "upwelling" ~ "Upwelling",
+    variable == "hab" ~ "Harmful algal blooms",
+    variable == "precip_o" ~ "Precipitation events",
+    variable == "dessication_o" ~ "Desiccation",
+    variable == "turbidity_o" ~ "Turbidity",
+    variable == "currents_o" ~ "Currents"
+  ))
 ```
 
-### EXTRINSIC ADAPTIVE CAPACITY
 ```{r}
-extrinsic_ac_variables <- CVA_scores %>% 
-  filter(component == "adaptive_capacity") %>% 
-    select(25:33)
+ggplot(data = kelp_forest, aes(x = high_and_above, y = reorder(variable, high_and_above))) +
+  geom_col(fill = "#00008B") +
+  labs(y = "Climate Variable",
+       x = "Count",
+       title = "Kelp Forest: Frequency of Individual Climate Sensitivity Variables \n (High and Very High)") +
+  theme_minimal() +
+  theme(plot.title = element_text(hjust = .3)) 
 ```
 
+## PELAGIC
+```{r}
+pelagic <- CVA_scores %>% 
+  filter(component == "sensitivity") %>% 
+  filter(habitat %in% c("pelagic", "pelagic_seabirds")) %>% 
+  select(1:18) %>% 
+  select(!habitat) %>% 
+  pivot_longer(3:17,
+               names_to = "variable",
+               values_to = "count") %>% 
+  pivot_wider(names_from = species, values_from = count) %>% 
+  replace(is.na(.), 0) %>% 
+  mutate(high_and_above = rowSums(select(., -c(1:2)) > 3)) %>% 
+  mutate(variable = case_when(
+    variable == "air_temp" ~ "Air temperature",
+    variable == "sst" ~ "Sea surface temperature",
+    variable == "sub_surf_temp" ~ "Subsurface temperature",
+    variable == "water_temp" ~ "Water temperature",
+    variable == "salinity" ~ "Salinity",
+    variable == "do" ~ "Dissolved oxygen",
+    variable == "oa" ~ "Ocean acidification",
+    variable == "slr" ~ "Sea level rise",
+    variable == "wave_action" ~ "Wave action",
+    variable == "upwelling" ~ "Upwelling",
+    variable == "hab" ~ "Harmful algal blooms",
+    variable == "precip_o" ~ "Precipitation events",
+    variable == "dessication_o" ~ "Desiccation",
+    variable == "turbidity_o" ~ "Turbidity",
+    variable == "currents_o" ~ "Currents"
+  ))
+```
 
+```{r}
+ggplot(data = pelagic, aes(x = high_and_above, y = reorder(variable, high_and_above))) +
+  geom_col(fill = "#00008B") +
+  labs(y = "Climate Variable",
+       x = "Count",
+       title = "Pelagic: Frequency of Individual Climate Sensitivity Variables \n (High and Very High)") +
+  theme_minimal() +
+  theme(plot.title = element_text(hjust = .3)) 
+```
 
+## DEEP SEAFLOOR
+```{r}
+deep_seafloor <- CVA_scores %>% 
+  filter(component == "sensitivity") %>% 
+  filter(habitat == "deep_seafloor") %>% 
+  select(1:18) %>% 
+  select(!habitat) %>% 
+  pivot_longer(3:17,
+               names_to = "variable",
+               values_to = "count") %>% 
+  pivot_wider(names_from = species, values_from = count) %>% 
+  replace(is.na(.), 0) %>% 
+  mutate(high_and_above = rowSums(select(., -c(1:2)) > 3)) %>% 
+  mutate(variable = case_when(
+    variable == "air_temp" ~ "Air temperature",
+    variable == "sst" ~ "Sea surface temperature",
+    variable == "sub_surf_temp" ~ "Subsurface temperature",
+    variable == "water_temp" ~ "Water temperature",
+    variable == "salinity" ~ "Salinity",
+    variable == "do" ~ "Dissolved oxygen",
+    variable == "oa" ~ "Ocean acidification",
+    variable == "slr" ~ "Sea level rise",
+    variable == "wave_action" ~ "Wave action",
+    variable == "upwelling" ~ "Upwelling",
+    variable == "hab" ~ "Harmful algal blooms",
+    variable == "precip_o" ~ "Precipitation events",
+    variable == "dessication_o" ~ "Desiccation",
+    variable == "turbidity_o" ~ "Turbidity",
+    variable == "currents_o" ~ "Currents"
+  ))
+```
 
+```{r}
+ggplot(data = deep_seafloor, aes(x = high_and_above, y = reorder(variable, high_and_above))) +
+  geom_col(fill = "#00008B") +
+  labs(y = "Climate Variable",
+       x = "Count",
+       title = "Deep Seafloor: Frequency of Individual Climate Sensitivity Variables \n (High and Very High)") +
+  theme_minimal() +
+  theme(plot.title = element_text(hjust = .3)) 
+```
+
+## ROCKY SHORE
+```{r}
+rocky_shore <- CVA_scores %>% 
+  filter(component == "sensitivity") %>% 
+  filter(habitat == "rocky_shore") %>% 
+  select(1:18) %>% 
+  select(!habitat) %>% 
+  pivot_longer(3:17,
+               names_to = "variable",
+               values_to = "count") %>% 
+  pivot_wider(names_from = species, values_from = count) %>% 
+  replace(is.na(.), 0) %>% 
+  mutate(high_and_above = rowSums(select(., -c(1:2)) > 3)) %>% 
+  mutate(variable = case_when(
+    variable == "air_temp" ~ "Air temperature",
+    variable == "sst" ~ "Sea surface temperature",
+    variable == "sub_surf_temp" ~ "Subsurface temperature",
+    variable == "water_temp" ~ "Water temperature",
+    variable == "salinity" ~ "Salinity",
+    variable == "do" ~ "Dissolved oxygen",
+    variable == "oa" ~ "Ocean acidification",
+    variable == "slr" ~ "Sea level rise",
+    variable == "wave_action" ~ "Wave action",
+    variable == "upwelling" ~ "Upwelling",
+    variable == "hab" ~ "Harmful algal blooms",
+    variable == "precip_o" ~ "Precipitation events",
+    variable == "dessication_o" ~ "Desiccation",
+    variable == "turbidity_o" ~ "Turbidity",
+    variable == "currents_o" ~ "Currents"
+  ))
+```
+
+```{r}
+ggplot(data = rocky_shore, aes(x = high_and_above, y = reorder(variable, high_and_above))) +
+  geom_col(fill = "#00008B") +
+  labs(y = "Climate Variable",
+       x = "Count",
+       title = "Rocky Shore: Frequency of Individual Climate Sensitivity Variables \n (High and Very High)") +
+  theme_minimal() +
+  theme(plot.title = element_text(hjust = .3)) 
+```
+
+## SANDY SEAFLOOR
+```{r}
+sandy_seafloor <- CVA_scores %>% 
+  filter(component == "sensitivity") %>% 
+  filter(habitat == "sandy_seafloor") %>% 
+  select(1:18) %>% 
+  select(!habitat) %>% 
+  pivot_longer(3:17,
+               names_to = "variable",
+               values_to = "count") %>% 
+  pivot_wider(names_from = species, values_from = count) %>% 
+  replace(is.na(.), 0) %>% 
+  mutate(high_and_above = rowSums(select(., -c(1:2)) > 3)) %>% 
+  mutate(variable = case_when(
+    variable == "air_temp" ~ "Air temperature",
+    variable == "sst" ~ "Sea surface temperature",
+    variable == "sub_surf_temp" ~ "Subsurface temperature",
+    variable == "water_temp" ~ "Water temperature",
+    variable == "salinity" ~ "Salinity",
+    variable == "do" ~ "Dissolved oxygen",
+    variable == "oa" ~ "Ocean acidification",
+    variable == "slr" ~ "Sea level rise",
+    variable == "wave_action" ~ "Wave action",
+    variable == "upwelling" ~ "Upwelling",
+    variable == "hab" ~ "Harmful algal blooms",
+    variable == "precip_o" ~ "Precipitation events",
+    variable == "dessication_o" ~ "Desiccation",
+    variable == "turbidity_o" ~ "Turbidity",
+    variable == "currents_o" ~ "Currents"
+  ))
+```
+
+```{r}
+ggplot(data = sandy_seafloor, aes(x = high_and_above, y = reorder(variable, high_and_above))) +
+  geom_col(fill = "#00008B") +
+  labs(y = "Climate Variable",
+       x = "Count",
+       title = "Sandy Seafloor: Frequency of Individual Climate Sensitivity Variables \n (High and Very High)") +
+  theme_minimal() +
+  theme(plot.title = element_text(hjust = .3)) 
+```
 

@@ -1,0 +1,91 @@
+---
+title: "Maritime Heritage Resources"
+author: "Grace Kumaishi"
+date: "4/16/2024"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(janitor)
+library(here)
+library(ggplot2)
+```
+
+### Read in MHR data ###
+```{r}
+mhr <- read_csv(here("data", "mhr.csv"))
+```
+
+### Climate sensitivity ###
+```{r}
+climate_sensitivity <- mhr %>% 
+  filter(component == "climate_sensitivity") %>% 
+  replace(is.na(.), 0) %>% 
+  mutate(factor = case_when(
+   factor == "air_temp" ~ "Air temperature",
+   factor == "water_temp" ~ "Water temperature",
+   factor == "precipitation" ~ "Precipitation",
+   factor == "salinity" ~ "Salinity",
+   factor == "do" ~ "Dissolved oxygen",
+   factor == "ph" ~ "Ocean acidification",
+   factor == "inc_water_depth" ~ "Increased water depth",
+   factor == "wave_tide" ~ "Wave/tidal action",
+   factor == "flow_velocity" ~ "Water flow velocity",
+   factor == "site_erosion" ~ "Site erosion",
+   factor == "sedimentation" ~ "Sedimentation",
+   factor == "surge_inundation" ~ "Storm surge/inundation"
+  ))
+```
+
+```{r}
+ggplot(data = climate_sensitivity, 
+       aes(fill = mhr_category, x = score, y = reorder(factor, score))) +
+  scale_fill_manual(breaks = c("nearshore", "offshore"), values = c("#73b3e7", "#2c608a")) +
+  geom_col(position = "dodge", stat = "identity") +
+  theme_minimal() +
+  labs(y = "Climate variable",
+       x = "Sensitivity score",
+       title = "Comparison of Climate Sensitivity Scores Between \n Nearshore and Offshore Maritime Heritage Resources",
+       fill = "MHR Category"
+  ) +
+  theme(plot.title = element_text(hjust = .5)) 
+```
+
+### Non-climate influence ###
+```{r}
+non_climate_impact <- mhr %>% 
+  filter(component == "non_climate") %>% 
+  replace(is.na(.), 0) %>% 
+  mutate(factor = case_when(
+    factor == "artifact_movt" ~ "Artifact movement",
+    factor == "bio_chem_degredation" ~ "Biochemical degredation",
+    factor == "fishing_trawling" ~ "Fishing and trawling",
+    factor == "neglect" ~ "Neglect under NHPA",
+    factor == "research_activities" ~ "Research activities",
+    factor == "visitation" ~ "Visitation",
+    factor == "vegetation" ~ "Marine vegetation growth"
+  ))
+```
+
+```{r}
+ggplot(data = non_climate_impact, 
+       aes(fill = mhr_category, x = score, y = reorder(factor, score))) +
+  scale_fill_manual(breaks = c("nearshore", "offshore"), values = c("#73b3e7", "#2c608a")) +
+  geom_col(position = "dodge", stat = "identity") +
+  theme_minimal() +
+  labs(y = "Non-climate variable",
+       x = "Impact on climate sensitivity",
+       title = "Comparison of Non-Climate Impacts Between \n Nearshore and Offshore Maritime Heritage Resources",
+       fill = "MHR Category"
+  ) +
+  theme(plot.title = element_text(hjust = .5)) 
+```
+
+
+
+
+
+

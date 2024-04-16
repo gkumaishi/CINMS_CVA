@@ -120,7 +120,7 @@ ggplot(data = non_climate_high, aes(x = occ_count, y = reorder(variable, occ_cou
   theme_minimal() +
   labs(y = "Non-climate variable",
        x = "Count",
-       title = "Non-Climate Variables that *Highly* or *Very Highly* Impact \n Species' Sensitivity to Climate Change") +
+       title = "Non-Climate Variables that 'Highly' or 'Very Highly' Impact \n Species' Sensitivity to Climate Change") +
   theme_minimal() +
   theme(plot.title = element_text(hjust = .5)) 
 ```
