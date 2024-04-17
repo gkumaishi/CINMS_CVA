@@ -37,13 +37,17 @@ climate_sensitivity <- mhr %>%
    factor == "site_erosion" ~ "Site erosion",
    factor == "sedimentation" ~ "Sedimentation",
    factor == "surge_inundation" ~ "Storm surge/inundation"
+  )) %>% 
+  mutate(mhr_category = case_when(
+    mhr_category == "nearshore" ~ "Nearshore",
+    mhr_category == "offshore" ~ "Offshore"
   ))
 ```
 
 ```{r}
 ggplot(data = climate_sensitivity, 
        aes(fill = mhr_category, x = score, y = reorder(factor, score))) +
-  scale_fill_manual(breaks = c("nearshore", "offshore"), values = c("#73b3e7", "#2c608a")) +
+  scale_fill_manual(breaks = c("Offshore", "Nearshore"), values = c("#2c608a" ,"#73b3e7")) +
   geom_col(position = "dodge", stat = "identity") +
   theme_minimal() +
   labs(y = "Climate variable",
@@ -51,6 +55,8 @@ ggplot(data = climate_sensitivity,
        title = "Comparison of Climate Sensitivity Scores Between \n Nearshore and Offshore Maritime Heritage Resources",
        fill = "MHR Category"
   ) +
+  scale_x_continuous(breaks = c(0, 1, 2, 3, 4, 5),
+                   labels = c("N/A", "Very Low", "Low", "Moderate", "High", "Very High")) +
   theme(plot.title = element_text(hjust = .5)) 
 ```
 
@@ -67,13 +73,17 @@ non_climate_impact <- mhr %>%
     factor == "research_activities" ~ "Research activities",
     factor == "visitation" ~ "Visitation",
     factor == "vegetation" ~ "Marine vegetation growth"
+  )) %>% 
+  mutate(mhr_category = case_when(
+    mhr_category == "nearshore" ~ "Nearshore",
+    mhr_category == "offshore" ~ "Offshore"
   ))
 ```
 
 ```{r}
 ggplot(data = non_climate_impact, 
        aes(fill = mhr_category, x = score, y = reorder(factor, score))) +
-  scale_fill_manual(breaks = c("nearshore", "offshore"), values = c("#73b3e7", "#2c608a")) +
+  scale_fill_manual(breaks = c("Offshore", "Nearshore"), values = c("#2c608a" ,"#73b3e7")) +
   geom_col(position = "dodge", stat = "identity") +
   theme_minimal() +
   labs(y = "Non-climate variable",
@@ -81,6 +91,8 @@ ggplot(data = non_climate_impact,
        title = "Comparison of Non-Climate Impacts Between \n Nearshore and Offshore Maritime Heritage Resources",
        fill = "MHR Category"
   ) +
+  scale_x_continuous(breaks = c(0, 1, 2, 3, 4, 5),
+                   labels = c("N/A", "Very Low", "Low", "Moderate", "High", "Very High")) +
   theme(plot.title = element_text(hjust = .5)) 
 ```
 
