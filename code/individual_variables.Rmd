@@ -13,6 +13,7 @@ library(janitor)
 library(here)
 library(ggplot2)
 library(stringr)
+library(dplyr)
 ```
 
 ```{r}
@@ -61,7 +62,6 @@ ggplot(data = sensitivity_mod_above, aes(x = mod_and_above, y = reorder(variable
   theme(plot.title = element_text(hjust = .3)) 
 ```
 
-
 #### CLIMATE VARIABLES ONLY (HIGH - VERY HIGH)
 ```{r}
 sensitivity_high_above <- CVA_scores %>% 
@@ -104,6 +104,35 @@ ggplot(data = sensitivity_high_above, aes(x = high_and_above, y = reorder(variab
 ```
 
 #### BY HABITAT
+```{r}
+sensitivity_by_habitat <- sensitivity_high_above %>%
+  select(!high_and_above) %>% 
+  pivot_longer(cols = 3:26, names_to = "species", values_to = "score") %>%
+  mutate(habitat = case_when(
+    species %in% c("cowcod", "lingcod", "cnidarian", "sponge") ~ "Deep Sea",
+    species %in% c("ca_sheephead", "kelp_bass", "red_urchin", "spiny_lobster", "giant_kelp") ~ "Kelp Forest",
+    species %in% c("anchovy", "sardine", "white_shark", "swordfish", "brown_pelican", "scripps_murrelet") ~ "Pelagic",
+    species %in% c("golden_rockweed", "black_abalone", "ochre_sea_star", "ca_mussel") ~ "Rocky Shore",
+    species %in% c("eelgrass", "ca_halibut", "warty_sea_cuc", "rock_crab_spp") ~ "Sandy Seafloor",
+    species %in% c("pac_sand_crab") ~ "Sandy Beach",
+    )) %>%
+  filter(score > 3) %>% 
+  group_by(variable) %>% 
+  mutate(count_score = n())
+```
+
+```{r}
+# Specify habitat order
+sensitivity_by_habitat$habitat <- factor(sensitivity_by_habitat$habitat, levels = c("Deep Sea", "Kelp Forest", "Pelagic", "Rocky Shore", "Sandy Seafloor", "Sandy Beach"))
+
+ggplot(data = sensitivity_by_habitat, aes(y = reorder(variable, count_score))) +
+  geom_bar(aes(fill = habitat), position = position_stack(reverse = TRUE)) +
+  scale_fill_manual(breaks = c("Deep Sea", "Kelp Forest", "Pelagic", "Rocky Shore", "Sandy Seafloor", "Sandy Beach"), 
+                    values = c("#2f4668", "#00a871", "#0d7ea2", "#936f38", "#86b98e", "#ffe396")) +
+  labs(y = element_blank()) +
+  theme_minimal() 
+```
+
 
 ## SANDY BEACH
 ```{r}
