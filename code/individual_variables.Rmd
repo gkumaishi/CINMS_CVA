@@ -126,10 +126,15 @@ sensitivity_by_habitat <- sensitivity_high_above %>%
 sensitivity_by_habitat$habitat <- factor(sensitivity_by_habitat$habitat, levels = c("Deep Sea", "Kelp Forest", "Pelagic", "Rocky Shore", "Sandy Seafloor", "Sandy Beach"))
 
 ggplot(data = sensitivity_by_habitat, aes(y = reorder(variable, count_score))) +
-  geom_bar(aes(fill = habitat), position = position_stack(reverse = TRUE)) +
-  scale_fill_manual(breaks = c("Deep Sea", "Kelp Forest", "Pelagic", "Rocky Shore", "Sandy Seafloor", "Sandy Beach"), 
-                    values = c("#2f4668", "#00a871", "#0d7ea2", "#936f38", "#86b98e", "#ffe396")) +
-  labs(y = element_blank()) +
+  geom_bar(width = 0.7, aes(fill = habitat), position = position_stack(reverse = TRUE)) +
+  scale_fill_manual(breaks = c("Deep Sea", "Pelagic", "Kelp Forest", "Rocky Shore", "Sandy Seafloor", "Sandy Beach"), 
+                    values = c("#2f4668", "#2378c3", "#7e9c1d", "#7a591a", "#fa9441", "#fee685")) +
+  labs(y = "Climate Variable",
+       x = "Count",
+       title = "Count of Individual Climate Sensitivity Variables \n Scored 'High' and 'Very High' Across Species",
+       fill = "Habitat") +
+  theme_minimal() +
+  theme(plot.title = element_text(hjust = .5)) +
   theme_minimal() 
 ```
 
