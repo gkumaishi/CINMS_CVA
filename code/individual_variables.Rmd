@@ -131,11 +131,12 @@ ggplot(data = sensitivity_by_habitat, aes(y = reorder(variable, count_score))) +
                     values = c("#2f4668", "#2378c3", "#7e9c1d", "#7a591a", "#fa9441", "#fee685")) +
   labs(y = "Climate Variable",
        x = "Count",
-       title = "Count of Individual Climate Sensitivity Variables \n Scored 'High' and 'Very High' Across Species",
+       #title = "Count of Individual Climate Sensitivity Variables \n Scored 'High' and 'Very High' Across Species",
        fill = "Habitat") +
-  theme_minimal() +
+  scale_x_continuous(breaks = c(0, 1, 2, 3, 4, 5, 6, 7, 8)) +
   theme(plot.title = element_text(hjust = .5)) +
-  theme_minimal() 
+  theme_minimal() +
+  theme(panel.grid.minor = element_blank())
 ```
 
 

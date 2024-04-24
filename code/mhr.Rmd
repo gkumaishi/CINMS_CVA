@@ -12,6 +12,7 @@ library(tidyverse)
 library(janitor)
 library(here)
 library(ggplot2)
+library(scales)
 ```
 
 ### Read in MHR data ###
@@ -46,18 +47,21 @@ climate_sensitivity <- mhr %>%
 
 ```{r}
 ggplot(data = climate_sensitivity, 
-       aes(fill = mhr_category, x = score, y = reorder(factor, score))) +
-  scale_fill_manual(breaks = c("Offshore", "Nearshore"), values = c("#2c608a" ,"#73b3e7")) +
-  geom_col(position = "dodge", stat = "identity") +
+       aes(color = mhr_category, size = mhr_category, x = score, y = reorder(factor, score))) +
+  scale_color_manual(breaks = c("Offshore", "Nearshore"), values = c("#274863" ,"#aacdec")) +
+  scale_size_manual(breaks = c("Offshore", "Nearshore"), values = c(2, 5)) +
+  geom_point(stat = "identity") +
   theme_minimal() +
-  labs(y = "Climate variable",
-       x = "Sensitivity score",
-       title = "Comparison of Climate Sensitivity Scores Between \n Nearshore and Offshore Maritime Heritage Resources",
-       fill = "MHR Category"
+  labs(y = "Climate Variable",
+       x = "Sensitivity Score",
+       #title = "Comparison of Climate Sensitivity Scores Between \n Nearshore and Offshore Maritime Heritage Resources",
+       color = "MHR Category",
+       size = "MHR Category"
   ) +
   scale_x_continuous(breaks = c(0, 1, 2, 3, 4, 5),
                    labels = c("N/A", "Very Low", "Low", "Moderate", "High", "Very High")) +
-  theme(plot.title = element_text(hjust = .5)) 
+  theme(plot.title = element_text(hjust = .5),
+        panel.grid.minor = element_blank())
 ```
 
 ### Non-climate influence ###
@@ -82,18 +86,21 @@ non_climate_impact <- mhr %>%
 
 ```{r}
 ggplot(data = non_climate_impact, 
-       aes(fill = mhr_category, x = score, y = reorder(factor, score))) +
-  scale_fill_manual(breaks = c("Offshore", "Nearshore"), values = c("#2c608a" ,"#73b3e7")) +
-  geom_col(position = "dodge", stat = "identity") +
+       aes(color = mhr_category, size = mhr_category, x = score, y = reorder(factor, score))) +
+  scale_color_manual(breaks = c("Offshore", "Nearshore"), values = c("#274863" ,"#aacdec")) +
+  scale_size_manual(breaks = c("Offshore", "Nearshore"), values = c(2, 5)) +
+  geom_point(position = "dodge", stat = "identity") +
   theme_minimal() +
-  labs(y = "Non-climate variable",
-       x = "Impact on climate sensitivity",
-       title = "Comparison of Non-Climate Impacts Between \n Nearshore and Offshore Maritime Heritage Resources",
-       fill = "MHR Category"
+  labs(y = "Non-Climate Variable",
+       x = "Impact on Climate Sensitivity",
+       #title = "Comparison of Non-Climate Impacts Between \n Nearshore and Offshore Maritime Heritage Resources",
+       color = "MHR Category",
+       size = "MHR Category"
   ) +
   scale_x_continuous(breaks = c(0, 1, 2, 3, 4, 5),
                    labels = c("N/A", "Very Low", "Low", "Moderate", "High", "Very High")) +
-  theme(plot.title = element_text(hjust = .5)) 
+  theme(plot.title = element_text(hjust = .5),
+        panel.grid.minor = element_blank())
 ```
 
 

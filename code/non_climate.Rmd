@@ -125,8 +125,41 @@ ggplot(data = non_climate_high, aes(x = occ_count, y = reorder(variable, occ_cou
   theme(plot.title = element_text(hjust = .5)) 
 ```
 
+#### BY HABITAT
+```{r}
+non_climate_by_habitat <- non_climate_high %>% 
+  select(!occ_count) %>% 
+  pivot_longer(cols = 2:25, names_to = "species", values_to = "score") %>%
+  mutate(habitat = case_when(
+    species %in% c("cowcod", "lingcod", "cnidarian", "sponge") ~ "Deep Sea",
+    species %in% c("ca_sheephead", "kelp_bass", "red_urchin", "spiny_lobster", "giant_kelp") ~ "Kelp Forest",
+    species %in% c("anchovy", "sardine", "white_shark", "swordfish", "brown_pelican", "scripps_murrelet") ~ "Pelagic",
+    species %in% c("golden_rockweed", "black_abalone", "ochre_sea_star", "ca_mussel") ~ "Rocky Shore",
+    species %in% c("eelgrass", "ca_halibut", "warty_sea_cuc", "rock_crab_spp") ~ "Sandy Seafloor",
+    species %in% c("pac_sand_crab") ~ "Sandy Beach",
+    )) %>%
+  filter(score > 3) %>% 
+  group_by(variable) %>% 
+  mutate(count_score = n())
+```
 
+```{r}
+# Specify habitat order
+non_climate_by_habitat$habitat <- factor(non_climate_by_habitat$habitat, levels = c("Deep Sea", "Kelp Forest", "Pelagic", "Rocky Shore", "Sandy Seafloor", "Sandy Beach"))
 
+ggplot(data = non_climate_by_habitat, aes(y = reorder(variable, count_score))) +
+  geom_bar(width = 0.7, aes(fill = habitat), position = position_stack(reverse = TRUE)) +
+  scale_fill_manual(breaks = c("Deep Sea", "Pelagic", "Kelp Forest", "Rocky Shore", "Sandy Seafloor", "Sandy Beach"), 
+                    values = c("#2f4668", "#2378c3", "#7e9c1d", "#7a591a", "#fa9441", "#fee685")) +
+  labs(y = "Climate Variable",
+       x = "Count",
+       #title = "Count of Individual Climate Sensitivity Variables \n Scored 'High' and 'Very High' Across Species",
+       fill = "Habitat") +
+  scale_x_continuous(breaks = c(0, 1, 2, 3, 4, 5, 6, 7, 8)) +
+  theme(plot.title = element_text(hjust = .5)) +
+  theme_minimal() +
+  theme(panel.grid.minor = element_blank())
+```
 
 
 
